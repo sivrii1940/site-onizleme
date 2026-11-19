@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg">
+<defs>
+<symbol id="i-foam" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+<path d="M8 25h14v14a3 3 0 0 1-3 3h-8a3 3 0 0 1-3-3z"/><path d="M12 25v-4h6v4"/><path d="M10 13h18v8H10z"/><path d="M17 13V9h5v4"/><path d="M28 15h3l6-5v14l-6-5h-3"/><path d="M8 33h14" stroke-dasharray="2 3"/><circle cx="42" cy="10" r="2"/><circle cx="44" cy="17.5" r="2.2"/><circle cx="41.5" cy="25" r="1.7"/>
+</symbol>
+<symbol id="i-vac" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+<path d="M5 43c0-9 4-13 10-15s9-5 10-9"/><path d="M22 20l6-6 5 5-6 6z"/><path d="M31 16l9-9 3 3-9 9"/><path d="M4 43h7"/><circle cx="41" cy="22" r=".6"/><circle cx="37" cy="27" r=".6"/><circle cx="44" cy="29" r=".6"/>
+</symbol>
+<symbol id="i-seat" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+<path d="M18 4h9a3 3 0 0 1 3 3v3a2 2 0 0 1-2 2H17a2 2 0 0 1-2-2V7a3 3 0 0 1 3-3z"/><path d="M21 12v3"/><path d="M16 15h13l-3 18H12z"/><path d="M12 33h22a4 4 0 0 1 4 4v1H11z"/><path d="M15 38v5M34 38v5M9 43h30"/>
+</symbol>
+<symbol id="i-engine" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+<path d="M9 20h23v4h5v-3h4v14h-4v-3h-5v7H15l-6-6z"/><path d="M15 20v-5h11v5M12 15h17"/><path d="M9 26H5v6h4"/><path d="M18 27h8M18 31h8"/>
+</symbol>
+<symbol id="i-polisher" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+<path d="M4 38h24v3.5H4z"/><path d="M16 38v-5"/><path d="M9 33h26a7 7 0 0 0 0-14H13a4 4 0 0 0-4 4z"/><path d="M42 26h-7"/><path d="M19 19v-5h8v5"/><path d="M28 24h4M28 28h4"/>
+</symbol>
+<symbol id="i-shield" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+<path d="M24 5l15 5v12c0 10-7 17-15 21C16 39 9 32 9 22V10z"/><path d="M24 15c3 5 6 8 6 12a6 6 0 0 1-12 0c0-4 3-7 6-12z"/>
+</symbol>
+<symbol id="i-cloth" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+<path d="M6 15l24-7 11 24-24 8z"/><path d="M18 11.5l11 24.5" stroke-dasharray="2.5 3"/><path d="M11.5 27.5L35.5 20" stroke-dasharray="2.5 3"/>
+</symbol>
+<symbol id="i-bucket" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+<path d="M9 17h30l-3 26H12z"/><path d="M9 17c0-11 30-11 30 0"/><path d="M11 25c4 2 8-2 13 0s9 2 13 0"/><path d="M14 37h20" stroke-dasharray="2 2"/>
+</symbol>
+<symbol id="i-spray" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+<path d="M15 21h12l3 5v17H12V26z"/><path d="M17 21v-5h8v5"/><path d="M17 16l-1-7h11l3 3h-4"/><path d="M33 10l6-3M33 13h7M33 16l6 3"/>
+</symbol>
+<symbol id="i-light" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+<path d="M4 20h15l6-4v16l-6-4H4z"/><path d="M27 15l15-8M27 33l15 8" stroke-dasharray="2 3"/><path d="M30 24h13"/>
+</symbol>
+<symbol id="i-bag" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+<path d="M11 17h26l2 26H9z"/><path d="M17 17v-3a7 7 0 0 1 14 0v3"/><path d="M17 26c3 2.5 11 2.5 14 0"/>
+</symbol>
+<symbol id="i-drop" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+<path d="M24 5c6 10 12 16 12 24a12 12 0 0 1-24 0c0-8 6-14 12-24z"/><path d="M18 30a6 6 0 0 0 6 6"/>
+</symbol>
+<symbol id="i-phone" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+<path d="M14 6h7l3 9-5 3c2 5 6 9 11 11l3-5 9 3v7a4 4 0 0 1-4 4C21 38 10 27 10 10a4 4 0 0 1 4-4z"/>
+</symbol>
+<symbol id="i-chat" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+<path d="M8 9h32a3 3 0 0 1 3 3v18a3 3 0 0 1-3 3H21l-9 7v-7H8a3 3 0 0 1-3-3V12a3 3 0 0 1 3-3z"/><path d="M15 21h.01M24 21h.01M33 21h.01" stroke-width="4.5"/>
+</symbol>
+<symbol id="i-pen" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+<path d="M33 6l9 9-22 22-11 2 2-11z"/><path d="M29 10l9 9"/><path d="M12 28l8 8"/>
+</symbol>
+<symbol id="i-pin" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+<path d="M24 43s13-12 13-23a13 13 0 0 0-26 0c0 11 13 23 13 23z"/><circle cx="24" cy="20" r="5"/>
+</symbol>
+<symbol id="i-clock" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+<circle cx="24" cy="24" r="17"/><path d="M24 13v11l7 5"/>
+</symbol>
+<symbol id="i-brush" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+<path d="M6 42l17-17"/><path d="M22 26l6-6 6 6-6 6z"/><path d="M29 19l6-7M32 22l7-6M35 25l7-6"/>
+</symbol>
+<symbol id="i-copy" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+<rect x="15" y="15" width="25" height="27" rx="3"/><path d="M33 15V9a3 3 0 0 0-3-3H11a3 3 0 0 0-3 3v24a3 3 0 0 0 3 3h4"/>
+</symbol>
+<symbol id="i-route" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+<circle cx="12" cy="36" r="5"/><path d="M36 6s8 7 8 13a8 8 0 0 1-16 0c0-6 8-13 8-13z"/><path d="M17 36h12a7 7 0 0 0 0-14h-7" stroke-dasharray="3 3"/>
+</symbol>
+<symbol id="i-scissors" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+<circle cx="11" cy="14" r="6"/><circle cx="11" cy="34" r="6"/><path d="M16 17l26 17M16 31l26-17"/>
+</symbol>
+
+<symbol id="c-sedan" viewBox="0 0 120 48" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round">
+<path d="M8 35V29q0-4 5-5l19-3 13-10q2-1.5 6-1.5h23q4 0 7 2.5l11 9 15 2q5 1 5 6v6h-12a9 9 0 0 0-18 0H38a9 9 0 0 0-18 0z"/><path d="M41 19.5l6.5-7H61v7zM64 12.5h10q3 0 5 2l5 5H64z"/><circle cx="29" cy="36" r="6"/><circle cx="91" cy="36" r="6"/><circle cx="29" cy="36" r="2"/><circle cx="91" cy="36" r="2"/><path d="M2 43.5h116" stroke-dasharray="3 3" stroke-width="1"/>
+</symbol>
+<symbol id="c-hatch" viewBox="0 0 120 48" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round">
+<path d="M12 35v-6q0-4 5-5l17-3 12-10q2-1.5 6-1.5h34q4 0 6 2.5l8 11q3 3 3 7v5h-8a9 9 0 0 0-18 0H41a9 9 0 0 0-18 0z"/><path d="M42 19.5l6-7h14v7zM65 12.5h20q3 0 5 2.5l3 4.5H65z"/><circle cx="32" cy="36" r="6"/><circle cx="86" cy="36" r="6"/><circle cx="32" cy="36" r="2"/><circle cx="86" cy="36" r="2"/><path d="M2 43.5h116" stroke-dasharray="3 3" stroke-width="1"/>
+</symbol>
+<symbol id="c-suv" viewBox="0 0 120 48" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round">
+<path d="M8 35V24q0-4 5-5l17-2 10-11q2-1.5 6-1.5h52q4 0 6 3.5l6 9q2 2 2 7v11h-11a10 10 0 0 0-20 0H39a10 10 0 0 0-20 0z"/><path d="M36 15l7-7.5h23V15zM69 7.5h28q3 0 4.5 2.5l3 5H69z"/><path d="M50 2h40" stroke-width="1.6"/><circle cx="29" cy="36" r="7"/><circle cx="91" cy="36" r="7"/><circle cx="29" cy="36" r="2.4"/><circle cx="91" cy="36" r="2.4"/><path d="M2 43.5h116" stroke-dasharray="3 3" stroke-width="1"/>
+</symbol>
+<symbol id="c-station" viewBox="0 0 120 48" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round">
+<path d="M8 35V29q0-4 5-5l19-3 13-10q2-1.5 6-1.5h51q4 0 6 3l3 10q1 2 1 6v6.5h-12a9 9 0 0 0-18 0H38a9 9 0 0 0-18 0z"/><path d="M41 19.5l6.5-7H63v7zM66 12.5h18v7H66zM87 12.5h15q3 0 4 2.5l1.5 4.5H87z"/><circle cx="29" cy="36" r="6"/><circle cx="91" cy="36" r="6"/><circle cx="29" cy="36" r="2"/><circle cx="91" cy="36" r="2"/><path d="M2 43.5h116" stroke-dasharray="3 3" stroke-width="1"/>
+</symbol>
+<symbol id="c-van" viewBox="0 0 120 48" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round">
+<path d="M8 35V22q0-5 5-6l11-3 8-9q1-1 4-1h72q4 0 4 4v28h-11a9 9 0 0 0-18 0H37a9 9 0 0 0-18 0z"/><path d="M27 13.5l6.5-7.5H44v7.5zM48 6v27M52 9.5h28"/><circle cx="28" cy="36" r="6"/><circle cx="92" cy="36" r="6"/><circle cx="28" cy="36" r="2"/><circle cx="92" cy="36" r="2"/><path d="M2 43.5h116" stroke-dasharray="3 3" stroke-width="1"/>
+</symbol>
+<symbol id="c-pickup" viewBox="0 0 120 48" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round">
+<path d="M8 35V24q0-4 5-5l17-2 10-11q2-1.5 6-1.5h21q4 0 4 4V18h41v17h-11a10 10 0 0 0-20 0H39a10 10 0 0 0-20 0z"/><path d="M36 15l7-7.5h23V15zM75 22h37"/><circle cx="29" cy="36" r="7"/><circle cx="91" cy="36" r="7"/><circle cx="29" cy="36" r="2.4"/><circle cx="91" cy="36" r="2.4"/><path d="M2 43.5h116" stroke-dasharray="3 3" stroke-width="1"/>
+</symbol>
+</defs>
+</svg>

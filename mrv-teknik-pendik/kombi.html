@@ -1,0 +1,555 @@
+<!doctype html>
+<html lang="tr" data-page-mode="heat">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Kombi bakımı ve arıza rehberi | MRV Teknik Pendik</title>
+<meta name="description" content="Kombi basıncı düşüyor, sıcak su gelmiyor, petekler ısınmıyor mu? Belirtiye göre ilk kontroller, basınç göstergesi okuma ve kombi bakımı rehberi.">
+<meta name="robots" content="noindex, nofollow">
+<meta name="theme-color" content="#1A1D21">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle cx='32' cy='32' r='31' fill='%231A1D21'/%3E%3Cpath d='M24 54.4A23.5 23.5 0 0 1 24 9.6' fill='none' stroke='%232E86DE' stroke-width='7' stroke-linecap='round'/%3E%3Cpath d='M40 9.6A23.5 23.5 0 0 1 40 54.4' fill='none' stroke='%23E4572E' stroke-width='7' stroke-linecap='round'/%3E%3Ccircle cx='32' cy='32' r='10' fill='%23FBFAF7'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Geologica:wght@300;400;500;600;700;800&amp;family=Onest:wght@400;500;600;700&amp;display=swap">
+<link rel="stylesheet" href="assets/css/site.css">
+<script>(function(d){d.className+=' js';var m;try{m=localStorage.getItem('mrv-mode')}catch(e){}var p=d.getAttribute('data-page-mode');if(m!=='heat'&&m!=='cool'){if(p==='heat'||p==='cool'){m=p}else{var o=new Date().getMonth();m=(o>=9||o<=3)?'heat':'cool'}}d.setAttribute('data-mode',m)})(document.documentElement)</script>
+
+</head>
+<body class="p-kombi">
+<a class="skip" href="#main">İçeriğe geç</a>
+<div data-preview-note class="preview">Önizleme: Bu tasarım MRV Teknik için hazırlanmış bir örnektir.</div>
+<header class="top">
+  <div class="wrap top__in">
+    <a class="brand" href="index.html" aria-label="MRV Teknik ana sayfa">
+      <svg class="brand__mark" viewBox="0 0 40 40" aria-hidden="true"><circle cx="20" cy="20" r="19.5" fill="#1A1D21"/><path d="M15 33.6A14.5 14.5 0 0 1 15 6.4" fill="none" stroke="#2E86DE" stroke-width="4.2" stroke-linecap="round"/><path d="M25 6.4A14.5 14.5 0 0 1 25 33.6" fill="none" stroke="#E4572E" stroke-width="4.2" stroke-linecap="round"/><circle cx="20" cy="20" r="6.6" fill="#FBFAF7"/><circle cx="23.3" cy="16.7" r="1.6" fill="#1A1D21"/></svg>
+      <span class="brand__txt"><b>MRV Teknik</b><small>Kombi · Klima · Petek</small></span>
+    </a>
+    <div class="season" role="group" aria-label="Mevsim anahtarı: renkleri ve içeriği değiştirir">
+      <button type="button" data-set-mode="heat" aria-pressed="true" title="Isıtma: kombi ve petek"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12.6 2.5c.6 3-1.1 4.6-2.6 6.4C8.7 10.4 7.4 12 7.4 14.6a4.6 4.6 0 0 0 9.2 0c0-1.9-.9-3.3-1.7-4.3-.2 1.3-.8 2.1-1.8 2.5.6-3.6-.1-7.3-.5-10.3z"/></svg><span class="season__lbl">Isıtma</span></button>
+      <button type="button" data-set-mode="cool" aria-pressed="false" title="Soğutma: klima"><svg viewBox="0 0 24 24" aria-hidden="true"><g fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round"><path d="M12 2.8v18.4M4 7.4l16 9.2M4 16.6l16-9.2"/><path d="m9.6 4.6 2.4 1.9 2.4-1.9M9.6 19.4l2.4-1.9 2.4 1.9M4.6 10.6l2.8-1-.4-3M19.4 13.4l-2.8 1 .4 3M7 17.4l.4-3-2.8-1M17 6.6l-.4 3 2.8 1"/></g></svg><span class="season__lbl">Soğutma</span></button>
+    </div>
+    <button type="button" class="menu-btn" aria-expanded="false" aria-controls="site-nav"><span class="menu-btn__bars" aria-hidden="true"></span><span class="sr-only">Menüyü aç</span></button>
+    <nav id="site-nav" class="nav" aria-label="Ana menü">
+        <a href="index.html">Ana sayfa</a>
+        <a href="kombi.html" aria-current="page">Kombi</a>
+        <a href="klima.html">Klima</a>
+        <a href="petek-temizligi.html">Petek temizliği</a>
+        <a href="servis-talebi.html">Servis talebi</a>
+        <a href="iletisim.html">İletişim</a>
+    </nav>
+    <a class="top__call" href="tel:+905325832420"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M7.2 2.8 9.6 2.3a1 1 0 0 1 1.1.6l1.4 3.4a1 1 0 0 1-.3 1.2L10 8.9a11.6 11.6 0 0 0 5.1 5.1l1.4-1.8a1 1 0 0 1 1.2-.3l3.4 1.4a1 1 0 0 1 .6 1.1l-.5 2.4a2.2 2.2 0 0 1-2.2 1.8A16.6 16.6 0 0 1 2.4 4.8a2.2 2.2 0 0 1 1.8-2z" transform="translate(0 1)"/></svg><span>0532 583 24 20</span></a>
+  </div>
+  <div class="top__line" aria-hidden="true"></div>
+</header>
+<main id="main">
+
+<section class="phero">
+  <div class="wrap phero__grid">
+    <div class="phero__text">
+      <nav class="crumbs" aria-label="Konum"><a href="index.html">Ana sayfa</a><span aria-hidden="true">/</span><span>Kombi</span></nav>
+      <h1>Kombi bakımı ve arıza rehberi</h1>
+      <p class="phero__lead">Kombinin içinde ne olduğunu bilmek, arızayı anlatmayı da kolaylaştırır. Çizimdeki noktalara dokunun; her parçanın ne işe yaradığını ve hangi belirtiye yol açtığını görün.</p>
+      <ul class="phero__jump">
+        <li><a href="#belirtiler">Arıza belirtileri</a></li>
+        <li><a href="#basinc-gostergesi">Basınç göstergesi</a></li>
+        <li><a href="#bakim">Bakımda neler yapılır?</a></li>
+        <li><a href="#guvenlik">Güvenlik</a></li>
+      </ul>
+      <div class="phero__cta">
+        <a class="btn btn--acc" href="tel:+905325832420"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M7.2 2.8 9.6 2.3a1 1 0 0 1 1.1.6l1.4 3.4a1 1 0 0 1-.3 1.2L10 8.9a11.6 11.6 0 0 0 5.1 5.1l1.4-1.8a1 1 0 0 1 1.2-.3l3.4 1.4a1 1 0 0 1 .6 1.1l-.5 2.4a2.2 2.2 0 0 1-2.2 1.8A16.6 16.6 0 0 1 2.4 4.8a2.2 2.2 0 0 1 1.8-2z" transform="translate(0 1)"/></svg>Ara: 0532 583 24 20</a>
+        <a class="btn btn--line" href="servis-talebi.html?cihaz=kombi"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="4.5" y="3" width="15" height="18" rx="2.5" fill="none" stroke="currentColor" stroke-width="1.9"/><path d="M8 8h8M8 12h8M8 16h5" stroke="currentColor" stroke-width="1.9" stroke-linecap="round"/></svg>Kombi için talep</a>
+      </div>
+    </div>
+
+    <div class="xray" data-xray>
+      <div class="xray__fig xray__fig--kombi">
+        <svg viewBox="0 0 360 500" role="img" aria-label="Kombinin kesit çizimi: fan, eşanjör, brülör, gaz valfi, genleşme tankı, pompa, plakalı eşanjör, üç yollu vana, basınç göstergesi ve doldurma musluğu">
+          <defs>
+            <linearGradient id="kCu" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#F2B58E"/><stop offset="1" stop-color="#C9602F"/></linearGradient>
+            <linearGradient id="kFl" x1="0" y1="1" x2="0" y2="0"><stop offset="0" stop-color="#2E86DE"/><stop offset=".45" stop-color="#7FB6EE"/><stop offset="1" stop-color="#F4A261"/></linearGradient>
+            <linearGradient id="kTank" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#C73E1D"/><stop offset=".45" stop-color="#E86A45"/><stop offset="1" stop-color="#B8361A"/></linearGradient>
+          </defs>
+          <!-- borular (kasa altından çıkar) -->
+          <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path class="k-pipe k-pipe--cold" d="M100 488V312"/>
+            <path class="k-pipe k-pipe--cold" d="M100 268V143H104"/>
+            <path class="k-pipe k-pipe--hot" d="M256 143H290V293H266"/>
+            <path class="k-pipe k-pipe--hot" d="M246 306V488"/>
+            <path class="k-pipe k-pipe--hot" d="M226 293H188"/>
+            <path class="k-pipe k-pipe--cold" d="M140 300H122"/>
+            <path class="k-pipe k-pipe--thin k-pipe--hot" d="M152 322V488"/>
+            <path class="k-pipe k-pipe--thin k-pipe--cold" d="M178 488V322"/>
+            <path class="k-pipe k-pipe--gas" d="M212 488V244M212 222V208"/>
+          </g>
+          <g class="k-flow" fill="none" stroke-linecap="round">
+            <path class="k-flow--cold" d="M100 488V312"/>
+            <path class="k-flow--cold" d="M100 268V143"/>
+            <path class="k-flow--hot" d="M256 143H290V293H266"/>
+            <path class="k-flow--hot" d="M246 306V488"/>
+          </g>
+          <!-- baca -->
+          <g data-hl="fan">
+            <rect x="150" y="4" width="60" height="38" rx="5" fill="#D8D1C6" stroke="#1A1D21" stroke-width="3"/>
+            <rect x="163" y="4" width="34" height="38" fill="#B5AB9D"/>
+          </g>
+          <!-- kasa -->
+          <rect x="40" y="36" width="280" height="400" rx="20" fill="#FFFFFF" stroke="#1A1D21" stroke-width="3"/>
+          <rect x="56" y="52" width="248" height="300" rx="10" fill="#F1ECE4"/>
+          <path d="M56 52h248" stroke="#E2DBD0" stroke-width="2"/>
+          <!-- fan -->
+          <g data-hl="fan">
+            <rect x="134" y="58" width="92" height="46" rx="16" fill="#FFFFFF" stroke="#1A1D21" stroke-width="2.5"/>
+            <g class="k-spin"><path d="M180 82c0-9 6-14 11-12-2 5-6 9-11 12zm0 0c9 0 14 6 12 11-5-2-9-6-12-11zm0 0c0 9-6 14-11 12 2-5 6-9 11-12zm0 0c-9 0-14-6-12-11 5 2 9 6 12 11z" fill="#5A6068"/><circle cx="180" cy="82" r="4" fill="#1A1D21"/></g>
+          </g>
+          <!-- eşanjör -->
+          <g data-hl="esanjor">
+            <rect x="104" y="114" width="152" height="58" rx="6" fill="url(#kCu)" stroke="#1A1D21" stroke-width="2.5"/>
+            <path d="M116 119v48M128 119v48M140 119v48M152 119v48M164 119v48M176 119v48M188 119v48M200 119v48M212 119v48M224 119v48M236 119v48M248 119v48" stroke="#7A3314" stroke-opacity=".35" stroke-width="2"/>
+          </g>
+          <!-- brülör ve alev -->
+          <g data-hl="brulor">
+            <g class="k-flames" fill="url(#kFl)">
+              <path d="M124 196c-6-6-4-13 0-18 4 5 6 12 0 18z"/><path d="M142 196c-6-6-4-13 0-18 4 5 6 12 0 18z"/><path d="M160 196c-6-6-4-13 0-18 4 5 6 12 0 18z"/><path d="M178 196c-6-6-4-13 0-18 4 5 6 12 0 18z"/><path d="M196 196c-6-6-4-13 0-18 4 5 6 12 0 18z"/><path d="M214 196c-6-6-4-13 0-18 4 5 6 12 0 18z"/><path d="M232 196c-6-6-4-13 0-18 4 5 6 12 0 18z"/>
+            </g>
+            <rect x="112" y="196" width="136" height="12" rx="4" fill="#8A9098" stroke="#1A1D21" stroke-width="2"/>
+          </g>
+          <!-- gaz valfi -->
+          <g data-hl="gazvalf">
+            <rect x="196" y="222" width="32" height="22" rx="4" fill="#E9B949" stroke="#1A1D21" stroke-width="2.5"/>
+            <rect x="203" y="216" width="18" height="7" rx="2" fill="#1A1D21"/>
+          </g>
+          <!-- genleşme tankı -->
+          <g data-hl="tank">
+            <rect x="64" y="66" width="30" height="156" rx="15" fill="url(#kTank)" stroke="#1A1D21" stroke-width="2.5"/>
+            <path d="M72 84v120" stroke="#FFFFFF" stroke-opacity=".35" stroke-width="3" stroke-linecap="round"/>
+          </g>
+          <!-- pompa -->
+          <g data-hl="pompa">
+            <circle cx="100" cy="290" r="22" fill="#3C6FA8" stroke="#1A1D21" stroke-width="2.5"/>
+            <circle cx="100" cy="290" r="9" fill="#FFFFFF"/>
+            <g class="k-spin"><path d="M100 283v14M93 290h14" stroke="#3C6FA8" stroke-width="2.5" stroke-linecap="round"/></g>
+          </g>
+          <!-- plakalı eşanjör -->
+          <g data-hl="plakali">
+            <rect x="140" y="250" width="48" height="72" rx="4" fill="#CBD0D5" stroke="#1A1D21" stroke-width="2.5"/>
+            <path d="M144 258h40M144 266h40M144 274h40M144 282h40M144 290h40M144 298h40M144 306h40M144 314h40" stroke="#8A9098" stroke-width="2"/>
+          </g>
+          <!-- üç yollu vana -->
+          <g data-hl="ucyollu">
+            <rect x="234" y="262" width="24" height="18" rx="3" fill="#1A1D21"/>
+            <rect x="226" y="280" width="40" height="26" rx="5" fill="#A4AAB0" stroke="#1A1D21" stroke-width="2.5"/>
+          </g>
+          <!-- ön panel -->
+          <rect x="56" y="362" width="248" height="62" rx="12" fill="#1A1D21"/>
+          <g data-hl="manometre">
+            <circle cx="92" cy="393" r="21" fill="#FFFFFF" stroke="#8A9098" stroke-width="2"/>
+            <path d="M77.5 401.5A16.5 16.5 0 0 1 84 378.6" fill="none" stroke="#E9A23B" stroke-width="3.5"/>
+            <path d="M84 378.6A16.5 16.5 0 0 1 100 378.6" fill="none" stroke="#43B26E" stroke-width="3.5"/>
+            <path d="M100 378.6A16.5 16.5 0 0 1 106.5 401.5" fill="none" stroke="#E4572E" stroke-width="3.5"/>
+            <path d="M92 393l-4-12" stroke="#1A1D21" stroke-width="2.5" stroke-linecap="round"/>
+            <circle cx="92" cy="393" r="3" fill="#1A1D21"/>
+          </g>
+          <rect x="138" y="380" width="78" height="26" rx="5" fill="#0F2A44"/>
+          <path d="M148 388h18M148 394h28M148 400h12" stroke="#6FB0EE" stroke-width="2.5" stroke-linecap="round"/>
+          <path d="M196 385c-3 3-4 6-2 9 1 3 6 3 7 0 1-3-1-5-2-6 0 2-1 3-2 3 1-2 0-4-1-6z" fill="#F28A5E"/>
+          <circle cx="250" cy="393" r="12" fill="#2C3137" stroke="#5A6068" stroke-width="2"/><path d="M250 393l5-7" stroke="#F3EFE8" stroke-width="2" stroke-linecap="round"/>
+          <circle cx="284" cy="393" r="12" fill="#2C3137" stroke="#5A6068" stroke-width="2"/><path d="M284 393l-6-6" stroke="#F3EFE8" stroke-width="2" stroke-linecap="round"/>
+          <!-- alt vanalar -->
+          <g fill="#5A6068"><rect x="93" y="448" width="14" height="10" rx="2"/><rect x="145" y="448" width="14" height="10" rx="2"/><rect x="171" y="448" width="14" height="10" rx="2"/><rect x="205" y="448" width="14" height="10" rx="2"/><rect x="239" y="448" width="14" height="10" rx="2"/></g>
+          <g data-hl="doldurma">
+            <path d="M112 462h14M126 462v-8" stroke="#1A1D21" stroke-width="3" stroke-linecap="round"/>
+            <rect x="117" y="447" width="18" height="8" rx="3" fill="#2E86DE" stroke="#1A1D21" stroke-width="2"/>
+          </g>
+        </svg>
+        <button type="button" class="hs" data-part="fan" style="left:50%;top:16.4%" aria-label="Fan ve baca bağlantısı"></button>
+        <button type="button" class="hs" data-part="esanjor" style="left:63.9%;top:28.6%" aria-label="Ana eşanjör"></button>
+        <button type="button" class="hs" data-part="brulor" style="left:33.3%;top:40%" aria-label="Brülör ve ateşleme"></button>
+        <button type="button" class="hs" data-part="gazvalf" style="left:58.9%;top:46.6%" aria-label="Gaz valfi"></button>
+        <button type="button" class="hs" data-part="tank" style="left:22%;top:29%" aria-label="Genleşme tankı"></button>
+        <button type="button" class="hs" data-part="pompa" style="left:27.8%;top:58%" aria-label="Sirkülasyon pompası"></button>
+        <button type="button" class="hs" data-part="plakali" style="left:45.6%;top:57.2%" aria-label="Plakalı eşanjör"></button>
+        <button type="button" class="hs" data-part="ucyollu" style="left:68.3%;top:58.6%" aria-label="Üç yollu vana"></button>
+        <button type="button" class="hs" data-part="manometre" style="left:25.6%;top:78.6%" aria-label="Basınç göstergesi"></button>
+        <button type="button" class="hs" data-part="doldurma" style="left:35%;top:90.2%" aria-label="Doldurma musluğu"></button>
+      </div>
+      <div class="xray__info" aria-live="polite">
+        <div class="xray__nav">
+          <button type="button" class="xray__arrow" data-xray-prev aria-label="Önceki parça"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5l-7 7 7 7" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+          <p class="xray__title"><b data-xray-title>Fan ve baca bağlantısı</b><span data-xray-count>1 / 10</span></p>
+          <button type="button" class="xray__arrow" data-xray-next aria-label="Sonraki parça"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5l7 7-7 7" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+        </div>
+        <p class="xray__text" data-xray-text>Yanma havasını alan ve atık gazı dışarı atan bölüm.</p>
+      </div>
+      <ul class="xray__legend" aria-label="Boru renkleri">
+        <li><i style="background:#E4572E"></i>Sıcak: kalorifer gidişi, musluk sıcak suyu</li>
+        <li><i style="background:#2E86DE"></i>Dönüş ve şebeke suyu</li>
+        <li><i style="background:#E9B949"></i>Doğal gaz</li>
+      </ul>
+      <dl class="parts">
+        <div class="part" data-part="fan"><dt><button type="button" class="part__btn">Fan ve baca bağlantısı</button></dt><dd>Hermetik ve yoğuşmalı kombilerde fan, yanma için gereken havayı dışarıdan alır ve atık gazı bacadan dışarı atar. Baca bağlantısındaki gevşeklik ya da tıkanıklık tehlikelidir; bakımda mutlaka kontrol edilir.</dd></div>
+        <div class="part" data-part="esanjor"><dt><button type="button" class="part__btn">Ana eşanjör</button></dt><dd>Alevin ısısını kalorifer suyuna aktaran parça. Üzerinde kir, kireç ya da tortu birikirse verim düşer, kombi ses yapabilir ve sık sık kapanıp açılabilir.</dd></div>
+        <div class="part" data-part="brulor"><dt><button type="button" class="part__btn">Brülör ve ateşleme</button></dt><dd>Gazın havayla karışıp yandığı bölüm. Ateşleme elektrodu kıvılcımı üretir, alev algılama elektrodu alevin varlığını denetler. Kirlenme, ateşleme sorunlarına ve kombinin kendini kapatmasına yol açabilir.</dd></div>
+        <div class="part" data-part="gazvalf"><dt><button type="button" class="part__btn">Gaz valfi</button></dt><dd>Brülöre giden gazı açıp kapatan ve ayarlayan parça. Gaz ayarı ve gaz hattıyla ilgili müdahaleler yalnızca yetkili ve ehil kişilerce yapılmalıdır; kendiniz kurcalamayın.</dd></div>
+        <div class="part" data-part="tank"><dt><button type="button" class="part__btn">Genleşme tankı</button></dt><dd>Su ısınınca artan hacmi karşılar. İçindeki ön basınç düşerse sistem basıncı ısınınca hızla yükselir, soğuyunca düşer; emniyet ventili su atabilir.</dd></div>
+        <div class="part" data-part="pompa"><dt><button type="button" class="part__btn">Sirkülasyon pompası</button></dt><dd>Kalorifer suyunu peteklere gönderip geri döndürür. Uzun süre çalışmayınca sıkışabilir; o zaman kombi yanar ama petekler ısınmaz, uğultu duyulabilir.</dd></div>
+        <div class="part" data-part="plakali"><dt><button type="button" class="part__btn">Plakalı eşanjör</button></dt><dd>Musluktan akan kullanım suyunu, kalorifer suyunun ısısıyla ısıtır. Kireçlenince sıcak su ılık ya da dalgalı gelir; sert sulu bölgelerde daha sık görülür.</dd></div>
+        <div class="part" data-part="ucyollu"><dt><button type="button" class="part__btn">Üç yollu vana</button></dt><dd>Isınan suyu peteklere ya da sıcak su tarafına yönlendirir. Takılı kalırsa ya musluktan sıcak su gelmez ya da petekler ısınmaz.</dd></div>
+        <div class="part" data-part="manometre"><dt><button type="button" class="part__btn">Basınç göstergesi</button></dt><dd>Tesisat suyunun basıncını gösterir. Bazı cihazlarda ibreli, bazılarında ekranda dijitaldir. Aşağıdaki araçla okuduğunuz değeri yorumlayabilirsiniz.</dd></div>
+        <div class="part" data-part="doldurma"><dt><button type="button" class="part__btn">Doldurma musluğu</button></dt><dd>Basınç düşünce tesisata şebeke suyu ekler. Genellikle kombinin altındadır; yeri ve kullanımı modele göre değişir, kılavuzunuza bakın.</dd></div>
+      </dl>
+    </div>
+  </div>
+</section>
+
+<section class="sec sec--tight" id="mevsim">
+  <div class="wrap">
+    <div class="sbox" data-season="heat">
+      <div>
+        <p class="sbox__badge"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12.6 2.5c.6 3-1.1 4.6-2.6 6.4C8.7 10.4 7.4 12 7.4 14.6a4.6 4.6 0 0 0 9.2 0c0-1.9-.9-3.3-1.7-4.3-.2 1.3-.8 2.1-1.8 2.5.6-3.6-.1-7.3-.5-10.3z"/></svg>Isıtma sezonu</p>
+        <h2>Kış ortasında kombinizi yormayın</h2>
+        <p>Küçük alışkanlıklar, hem konforu hem kombinin ömrünü etkiler.</p>
+        <p class="sbox__switch">Yaz dönemi önerileri için <button type="button" data-go-mode="cool">soğutma tarafına geçin</button>.</p>
+      </div>
+      <ul class="ticks">
+        <li><b>Peteklerin önünü kapatmayın.</b> Kalın perde, mobilya ya da petek örtüsü ısının odaya geçmesini zorlaştırır.</li>
+        <li><b>Termostatla sık oynamayın.</b> Büyük oynamalar yerine makul bir değerde tutun; evden uzun süre ayrılırken düşürün.</li>
+        <li><b>Basınca haftada bir bakın.</b> Sık sık düşüyorsa tesisatta kaçak olabilir.</li>
+        <li><b>Dondurucu soğukta tamamen kapatmayın.</b> Çoğu cihazdaki donma koruması, ancak cihaz elektrikte ve gazı açıkken çalışır.</li>
+      </ul>
+    </div>
+    <div class="sbox" data-season="cool">
+      <div>
+        <p class="sbox__badge"><svg viewBox="0 0 24 24" aria-hidden="true"><g fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round"><path d="M12 2.8v18.4M4 7.4l16 9.2M4 16.6l16-9.2"/><path d="m9.6 4.6 2.4 1.9 2.4-1.9M9.6 19.4l2.4-1.9 2.4 1.9M4.6 10.6l2.8-1-.4-3M19.4 13.4l-2.8 1 .4 3M7 17.4l.4-3-2.8-1M17 6.6l-.4 3 2.8 1"/></g></svg>Yaz dönemi</p>
+        <h2>Yazın kombi: dinlenme değil hazırlık zamanı</h2>
+        <p>Isıtma kapalıyken yapılacaklar, kışın ilk soğuğunda rahat etmenizi sağlar.</p>
+        <p class="sbox__switch">Kış önerileri için <button type="button" data-go-mode="heat">ısıtma tarafına geçin</button>.</p>
+      </div>
+      <ul class="ticks">
+        <li><b>Yaz konumuna alın.</b> Kaloriferi kapatıp kombiyi yalnızca sıcak su konumunda çalıştırın.</li>
+        <li><b>Elektriğinden ayırmayın.</b> Birçok modelde pompayı ve vanayı sıkışmaya karşı ara ara kısa süre çalıştıran bir koruma bulunur.</li>
+        <li><b>Bakım için en sakin dönem.</b> İlk soğukla gelen yoğunluk başlamadan cihazınızı kontrol ettirebilirsiniz.</li>
+        <li><b>Petek temizliği için de uygun.</b> Isıtma kapalıyken evin bir süre ısınmadan kalması sorun olmaz.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="sec" id="belirtiler">
+  <div class="wrap">
+    <div class="sec__head sec__head--split">
+      <h2>Belirtiye göre ilk kontroller</h2>
+      <p class="lede">Her kombinin hata kodları markaya ve modele göre değişir; bu yüzden burada kod listesi yok. Belirtiden yola çıkın: neyi güvenle kendiniz kontrol edebileceğinizi ve ne zaman servis gerektiğini görün.</p>
+    </div>
+    <div class="sym" data-sym>
+      <div class="sym__tabs" role="tablist" aria-label="Kombi arıza belirtileri">
+        <button type="button" role="tab" id="t-basinc" aria-controls="basinc" aria-selected="true"><svg viewBox="0 0 24 24" aria-hidden="true"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="13" r="8"/><path d="M12 13l3.6-3.6M8.5 17.5h7M5.5 9.5l1.2.7M18.5 9.5l-1.2.7M12 5v1.4"/></g></svg>Basınç düşüyor</button>
+        <button type="button" role="tab" id="t-sicak-su" aria-controls="sicak-su" aria-selected="false" tabindex="-1"><svg viewBox="0 0 24 24" aria-hidden="true"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3.5 8.5h8.5a4 4 0 0 1 4 4v1.5M7.5 8.5V5.5h4v3M5.5 5.5h8"/><path d="M16 17.2c0 1.2-.7 2.3-1.6 2.3s-1.6-1.1-1.6-2.3 1.6-3 1.6-3 1.6 1.8 1.6 3z"/></g></svg>Sıcak su gelmiyor</button>
+        <button type="button" role="tab" id="t-isinmiyor" aria-controls="isinmiyor" aria-selected="false" tabindex="-1"><svg viewBox="0 0 24 24" aria-hidden="true"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="6" width="18" height="12" rx="2"/><path d="M7.5 6v12M12 6v12M16.5 6v12M5 18v2M19 18v2"/></g></svg>Petekler ısınmıyor</button>
+        <button type="button" role="tab" id="t-ses" aria-controls="ses" aria-selected="false" tabindex="-1"><svg viewBox="0 0 24 24" aria-hidden="true"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3.5 10v4h3.2l4.3 3.6V6.4L6.7 10H3.5z"/><path d="M15 9.2a4 4 0 0 1 0 5.6M17.6 6.6a7.6 7.6 0 0 1 0 10.8"/></g></svg>Ses yapıyor</button>
+        <button type="button" role="tab" id="t-hata-kodu" aria-controls="hata-kodu" aria-selected="false" tabindex="-1"><svg viewBox="0 0 24 24" aria-hidden="true"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4.5" width="18" height="12.5" rx="2"/><path d="M12 7.8v4.6M12 14.4v.1M9 20.5h6"/></g></svg>Hata kodu</button>
+        <button type="button" role="tab" id="t-su-damlatiyor" aria-controls="su-damlatiyor" aria-selected="false" tabindex="-1"><svg viewBox="0 0 24 24" aria-hidden="true"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5s6 6.6 6 10.6a6 6 0 0 1-12 0c0-4 6-10.6 6-10.6z"/><path d="M9.2 14.6a2.8 2.8 0 0 0 2.4 2.6"/></g></svg>Su damlatıyor</button>
+        <button type="button" role="tab" id="t-calismiyor" aria-controls="calismiyor" aria-selected="false" tabindex="-1"><svg viewBox="0 0 24 24" aria-hidden="true"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="2.5" width="14" height="15.5" rx="2.2"/><path d="M8.2 18v3.2M11 18v3.2M13.8 18v3.2M16.6 18v3.2M8.5 6h7"/><circle cx="12" cy="12.2" r="2.4"/></g></svg>Hiç çalışmıyor</button>
+        <button type="button" role="tab" id="t-koku" aria-controls="koku" aria-selected="false" tabindex="-1"><svg viewBox="0 0 24 24" aria-hidden="true"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M7.5 20.5c-2-2.4 2-4.4 0-6.8s2-4.4 0-6.8M12.5 20.5c-2-2.4 2-4.4 0-6.8s2-4.4 0-6.8M17.5 20.5c-2-2.4 2-4.4 0-6.8s2-4.4 0-6.8"/></g></svg>Koku var</button>
+      </div>
+
+      <section class="sym__panel" id="basinc" role="tabpanel" aria-labelledby="t-basinc">
+        <h3>Basınç düşük ya da sürekli düşüyor</h3>
+        <div class="sym__cols">
+          <div><h4>Olası nedenler</h4><ul>
+            <li>Tesisatta, petek vanalarında ya da rakorlarda küçük bir su kaçağı</li>
+            <li>Yakın zamanda peteklerin havasının alınması (sistemden su eksilir)</li>
+            <li>Emniyet ventilinin aşırı basınçta su atması</li>
+            <li>Genleşme tankının ön basıncının düşmesi</li>
+          </ul></div>
+          <div><h4>Güvenle yapabilecekleriniz</h4><ul>
+            <li>Göstergeyi kombi soğukken okuyun.</li>
+            <li>Kılavuzdaki tarife göre doldurma musluğundan yavaşça su ekleyip önerilen değerde kapatın (çoğu cihazda yaklaşık 1–2 bar).</li>
+            <li>Petek vanalarının, rakorların ve kombinin altının kuru olup olmadığına bakın.</li>
+          </ul></div>
+        </div>
+        <div class="sym__when"><p><b>Servis gerekir:</b> tamamladığınız basınç birkaç gün içinde yine düşüyorsa. Kaçak ya da tank sorunu yerinde aranmalıdır.</p><a class="btn btn--acc" href="servis-talebi.html?cihaz=kombi&amp;sorun=basinc">Bu sorun için talep</a></div>
+      </section>
+
+      <section class="sym__panel" id="sicak-su" role="tabpanel" aria-labelledby="t-sicak-su">
+        <h3>Sıcak su gelmiyor, kalorifer çalışıyor</h3>
+        <div class="sym__cols">
+          <div><h4>Olası nedenler</h4><ul>
+            <li>Plakalı eşanjörde kireçlenme</li>
+            <li>Üç yollu vananın kalorifer konumunda takılı kalması</li>
+            <li>Su akışını algılayan parçanın (akış sensörü) suyu algılamaması</li>
+            <li>Musluktaki akışın çok düşük olması, perlatör ya da filtre tıkanıklığı</li>
+          </ul></div>
+          <div><h4>Güvenle yapabilecekleriniz</h4><ul>
+            <li>Birden fazla muslukta, musluğu tam açarak deneyin.</li>
+            <li>Kombinin sıcak su ayarının kısık olmadığına bakın.</li>
+            <li>Ekranda bir uyarı ya da kod varsa not edin.</li>
+          </ul></div>
+        </div>
+        <div class="sym__when"><p><b>Servis gerekir:</b> sıcak su hiç gelmiyorsa ya da ılık ve dalgalı geliyorsa.</p><a class="btn btn--acc" href="servis-talebi.html?cihaz=kombi&amp;sorun=sicak-su">Bu sorun için talep</a></div>
+      </section>
+
+      <section class="sym__panel" id="isinmiyor" role="tabpanel" aria-labelledby="t-isinmiyor">
+        <h3>Petekler ısınmıyor ya da ev geç ısınıyor</h3>
+        <div class="sym__cols">
+          <div><h4>Olası nedenler</h4><ul>
+            <li>Peteklerde hava birikmesi (üst kısım soğuk kalır)</li>
+            <li>Tesisatta tortu ve çamur (alt kısım soğuk kalır)</li>
+            <li>Petek vanalarının kısık ya da kapalı olması</li>
+            <li>Sirkülasyon pompasının sıkışması</li>
+            <li>Oda termostatının ya da kombinin kalorifer ayarının düşük olması</li>
+          </ul></div>
+          <div><h4>Güvenle yapabilecekleriniz</h4><ul>
+            <li>Termostatı ve kombinin kalorifer sıcaklık ayarını kontrol edin.</li>
+            <li>Petek vanalarının açık olduğuna bakın.</li>
+            <li>Üstü soğuk kalan peteklerin <a href="petek-temizligi.html#hava-alma">havasını alın</a>, ardından basıncı kontrol edin.</li>
+          </ul></div>
+        </div>
+        <div class="sym__when"><p><b>Servis gerekir:</b> altı soğuk kalan petekler, bütün evde zayıf ısınma ya da kombi çalıştığı hâlde petekleri soğuk kalıyorsa. <a href="petek-temizligi.html">Petek temizliği rehberine</a> de bakın.</p><a class="btn btn--acc" href="servis-talebi.html?cihaz=kombi&amp;sorun=isinmiyor">Bu sorun için talep</a></div>
+      </section>
+
+      <section class="sym__panel" id="ses" role="tabpanel" aria-labelledby="t-ses">
+        <h3>Kombi ses yapıyor</h3>
+        <div class="sym__cols">
+          <div><h4>Sese göre olası nedenler</h4><ul>
+            <li><b>Fokurdama, şırıltı:</b> tesisatta hava</li>
+            <li><b>Tıkırtı, kaynama sesi:</b> eşanjörde kireç ya da tortu, düşük su akışı</li>
+            <li><b>Uğultu, vınlama:</b> pompa ya da fan</li>
+            <li><b>Ateşlemede patlama sesi:</b> ateşleme ya da yanma ayarı sorunu</li>
+          </ul></div>
+          <div><h4>Güvenle yapabilecekleriniz</h4><ul>
+            <li>Sesin ne zaman geldiğini not edin: ateşlemede mi, sıcak su açınca mı, sürekli mi?</li>
+            <li>Peteklerin havasını alıp basıncı kontrol edin.</li>
+            <li>Mümkünse sesi telefonla kaydedin; talep mesajından sonra gönderebilirsiniz.</li>
+          </ul></div>
+        </div>
+        <div class="sym__when sym__danger"><p><b>Hemen servis:</b> ateşlemede patlama sesi, yanık kokusu ya da giderek artan ses varsa kombiyi kapatın ve kullanmayın.</p><a class="btn btn--acc" href="servis-talebi.html?cihaz=kombi&amp;sorun=ses">Bu sorun için talep</a></div>
+      </section>
+
+      <section class="sym__panel" id="hata-kodu" role="tabpanel" aria-labelledby="t-hata-kodu">
+        <h3>Ekranda hata kodu ya da uyarı ışığı var</h3>
+        <div class="sym__cols">
+          <div><h4>Bilmeniz gereken</h4><ul>
+            <li>Hata kodları markaya ve modele göre değişir; aynı kod farklı cihazlarda farklı anlama gelebilir.</li>
+            <li>Kodun ne anlama geldiği cihazınızın kullanma kılavuzundaki hata tablosunda yazar.</li>
+            <li>Sık tekrar eden kod, altta yatan bir sorunun işaretidir.</li>
+          </ul></div>
+          <div><h4>Güvenle yapabilecekleriniz</h4><ul>
+            <li>Kodu ve cihazın marka-modelini not edin ya da ekranın fotoğrafını çekin.</li>
+            <li>Kılavuz izin veriyorsa bir kez sıfırlama (reset) deneyin.</li>
+            <li>Kod basınçla ilgiliyse <a href="#basinc-gostergesi">basınç göstergesine</a> bakın.</li>
+          </ul></div>
+        </div>
+        <div class="sym__when"><p><b>Servis gerekir:</b> kod tekrar ediyorsa ya da kılavuz servis çağırmanızı söylüyorsa. Sık sıfırlama sorunu gizler, çözmez.</p><a class="btn btn--acc" href="servis-talebi.html?cihaz=kombi&amp;sorun=hata-kodu">Bu sorun için talep</a></div>
+      </section>
+
+      <section class="sym__panel" id="su-damlatiyor" role="tabpanel" aria-labelledby="t-su-damlatiyor">
+        <h3>Kombiden su damlıyor</h3>
+        <div class="sym__cols">
+          <div><h4>Olası nedenler</h4><ul>
+            <li>Emniyet ventilinin aşırı basınçta su atması</li>
+            <li>Rakor ya da conta gevşemesi</li>
+            <li>Yoğuşmalı kombilerde yoğuşma suyu hattının tıkanması ya da bağlantı sorunu</li>
+            <li>İç parçalarda sızıntı</li>
+          </ul></div>
+          <div><h4>Güvenle yapabilecekleriniz</h4><ul>
+            <li>Basınç göstergesine bakın; yüksekse fazla dolum olabilir.</li>
+            <li>Damlayan noktanın altına bir kap koyun.</li>
+            <li>Elektrikli parçalara ve prize su gelmemesine dikkat edin.</li>
+          </ul></div>
+        </div>
+        <div class="sym__when"><p><b>Servis gerekir:</b> damlama sürüyorsa. Su cihazın içinden geliyorsa kombiyi kapatın.</p><a class="btn btn--acc" href="servis-talebi.html?cihaz=kombi&amp;sorun=su-damlatiyor">Bu sorun için talep</a></div>
+      </section>
+
+      <section class="sym__panel" id="calismiyor" role="tabpanel" aria-labelledby="t-calismiyor">
+        <h3>Kombi hiç çalışmıyor ya da ateşleme yapmıyor</h3>
+        <div class="sym__cols">
+          <div><h4>Olası nedenler</h4><ul>
+            <li>Elektrik kesintisi, atmış sigorta ya da çıkmış fiş</li>
+            <li>Gaz vanasının kapalı olması ya da gaz kesintisi</li>
+            <li>Basıncın düşük olması (çoğu cihaz düşük basınçta çalışmaz)</li>
+            <li>Ateşleme ya da alev algılama sorunu</li>
+          </ul></div>
+          <div><h4>Güvenle yapabilecekleriniz</h4><ul>
+            <li>Ekran açık mı, sigorta ve fiş yerinde mi bakın.</li>
+            <li>Kombinin altındaki gaz vanasının açık olduğunu ve ocağın yanıp yanmadığını kontrol edin.</li>
+            <li>Basıncı kontrol edin.</li>
+          </ul></div>
+        </div>
+        <div class="sym__when sym__danger"><p><b>Dikkat:</b> gaz kokusu varsa hiçbir şeyi açıp kapatmayın; <a href="index.html#gaz-kokusu">gaz kokusu adımlarını</a> uygulayıp 187'yi arayın. Bunlar normalse servis çağırın.</p><a class="btn btn--acc" href="servis-talebi.html?cihaz=kombi&amp;sorun=calismiyor">Bu sorun için talep</a></div>
+      </section>
+
+      <section class="sym__panel" id="koku" role="tabpanel" aria-labelledby="t-koku">
+        <h3>Gaz, egzoz ya da yanık kokusu</h3>
+        <div class="sym__cols">
+          <div><h4>Gaz kokusu</h4><ul>
+            <li>Ateş yakmayın, elektrik düğmelerine dokunmayın.</li>
+            <li>Pencere ve kapıları açın, gaz vanasını kapatın.</li>
+            <li>Binayı terk edin ve dışarıdan 187 Doğalgaz Acil'i arayın.</li>
+          </ul></div>
+          <div><h4>Egzoz ya da yanık kokusu, baş ağrısı</h4><ul>
+            <li>Kombiyi kapatın, pencereleri açın, ortamdan çıkın.</li>
+            <li>Baş ağrısı, baş dönmesi, bulantı varsa 112'yi arayın; bunlar karbonmonoksit belirtisi olabilir.</li>
+            <li>Cihaz kontrol edilmeden yeniden çalıştırmayın.</li>
+          </ul></div>
+        </div>
+        <div class="sym__when sym__danger"><p><b>Önce güvenlik:</b> koku durumlarında servis ikinci adımdır. Tehlike geçtikten sonra cihazın kontrolü için arayın.</p><a class="btn btn--acc" href="#guvenlik">Güvenlik bilgileri</a></div>
+      </section>
+    </div>
+  </div>
+</section>
+
+<section class="sec sec--tight" id="basinc-gostergesi">
+  <div class="wrap">
+    <div class="gauge" data-gauge data-tool="basinc-gostergesi">
+      <div>
+        <svg class="gauge__svg" viewBox="0 0 360 352" role="img" aria-label="Basınç göstergesi, 0 ile 4 bar arası">
+          <circle cx="180" cy="180" r="170" fill="#262B31"/>
+          <circle cx="180" cy="180" r="160" fill="#F7F4EE"/>
+          <g fill="none" stroke-width="16">
+            <path d="M65.7 246A132 132 0 0 1 65.7 114" stroke="#E9A23B"/>
+            <path d="M65.7 114A132 132 0 0 1 180 48" stroke="#43B26E"/>
+            <path d="M180 48A132 132 0 0 1 246 65.7" stroke="#8FC0EF"/>
+            <path d="M246 65.7A132 132 0 0 1 294.3 246" stroke="#E4572E"/>
+          </g>
+          <g stroke="#1A1D21" stroke-width="3" stroke-linecap="round">
+            <path d="M81.3 237 72.6 242M66 180H56M81.3 123l-8.7-5M123 81.3l-5-8.7M180 66V56M237 81.3l5-8.7M278.7 123l8.7-5M294 180h10M278.7 237l8.7 5"/>
+          </g>
+          <g font-family="Geologica, sans-serif" font-size="20" font-weight="600" fill="#1A1D21" text-anchor="middle" dominant-baseline="central">
+            <text x="96" y="226">0</text><text x="96" y="132">1</text><text x="180" y="82">2</text><text x="264" y="132">3</text><text x="264" y="226">4</text>
+          </g>
+          <text class="gauge__num" x="180" y="292" data-gauge-val>1,5 bar</text>
+          <g class="gauge__needle" data-needle>
+            <path d="M180 180 176 176 180 60 184 176z" fill="#C2441F"/>
+          </g>
+          <circle cx="180" cy="180" r="13" fill="#1A1D21"/>
+          <circle cx="180" cy="180" r="5" fill="#F7F4EE"/>
+        </svg>
+      </div>
+      <div>
+        <h2>Basınç göstergesini okuyun</h2>
+        <p>Kombinizin göstergesinde gördüğünüz değeri aşağıya girin. Değerlendirme genel bilgidir: çoğu cihazda soğukken yaklaşık 1–2 bar beklenir; kesin aralık için mutlaka cihazınızın kılavuzuna bakın.</p>
+        <p class="field__label" id="g-state">Kombi şu an</p>
+        <div class="seg" role="group" aria-labelledby="g-state">
+          <button type="button" data-hot="0" aria-pressed="true">Soğuk / kapalı</button>
+          <button type="button" data-hot="1" aria-pressed="false">Çalışıyor / sıcak</button>
+        </div>
+        <label for="g-range">Göstergede gördüğünüz değer</label>
+        <input id="g-range" type="range" min="0" max="4" step="0.1" value="1.5">
+        <div class="gauge__out" data-gauge-out aria-live="polite"><b>Çoğu cihaz için olağan</b><p>Soğukken çoğu kombide beklenen aralık yaklaşık 1–2 bardır.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="sec" id="bakim">
+  <div class="wrap split split--wide">
+    <div>
+      <h2>Kombi bakımında genellikle neler yapılır?</h2>
+      <p class="lede">Bakım, kombinin güvenli ve verimli çalışması içindir. Kapsam cihazın tipine ve durumuna göre değişir; yapılacak işler başlamadan size anlatılır.</p>
+      <ul class="ticks ticks--cols">
+        <li>Yanma odası, brülör ve elektrotların kontrolü, gerekiyorsa temizliği</li>
+        <li>Ana eşanjörün kontrolü ve temizliği</li>
+        <li>Fan, baca bağlantısı ve atık gaz çıkışının kontrolü</li>
+        <li>Gaz bağlantısında sızdırmazlık kontrolü</li>
+        <li>Genleşme tankı ön basıncının ölçülmesi</li>
+        <li>Tesisat basıncı ve emniyet ventilinin kontrolü</li>
+        <li>Varsa su filtresinin temizliği</li>
+        <li>Yoğuşmalı cihazlarda yoğuşma suyu hattı ve sifonun temizliği</li>
+        <li>Kalorifer, sıcak su ve emniyet elemanlarının çalışma testleri</li>
+        <li>Fark edilen sorunların ve önerilerin size anlatılması</li>
+      </ul>
+    </div>
+    <aside class="panel panel--soft">
+      <h3>Bakımdan önce hazırlık</h3>
+      <ul class="ticks">
+        <li>Kombinin önünü ve altını boşaltın; dolap içindeyse kapakları açık bırakın.</li>
+        <li>Varsa kullanma kılavuzunu ve son bakım kaydını hazır edin.</li>
+        <li>Son dönemde fark ettiğiniz ses, koku ya da hata kodlarını not edin.</li>
+        <li>Petekleriniz eşit ısınmıyorsa bunu da söyleyin; <a href="petek-temizligi.html">petek temizliği</a> aynı ziyarette konuşulabilir.</li>
+      </ul>
+      <a class="btn btn--acc" href="servis-talebi.html?cihaz=kombi&amp;sorun=bakim"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="4.5" y="3" width="15" height="18" rx="2.5" fill="none" stroke="currentColor" stroke-width="1.9"/><path d="M8 8h8M8 12h8M8 16h5" stroke="currentColor" stroke-width="1.9" stroke-linecap="round"/></svg>Bakım talebi oluştur</a>
+    </aside>
+  </div>
+</section>
+
+<section class="sec sec--extra" id="guvenlik">
+  <div class="wrap">
+    <div class="warn">
+      <span class="warn__icon"><svg viewBox="0 0 24 24" aria-hidden="true"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="8.6"/><path d="M10.6 9.4a2.8 2.8 0 1 0 0 5.2M15.8 9.2a2.6 2.6 0 1 0 0 .01z"/></g></svg></span>
+      <div>
+        <h2>Karbonmonoksit: kokusuz tehlike</h2>
+        <p>Karbonmonoksit renksiz ve kokusuz bir gazdır. Baca bağlantısı bozulmuş, havalandırması yetersiz ya da bakımsız cihazlarda oluşabilir. Belirtileri soğuk algınlığına benzer: baş ağrısı, baş dönmesi, bulantı, halsizlik ve uyku hali.</p>
+        <p>Önlem olarak havalandırma menfezlerini kapatmayın, baca bağlantısını bakımda kontrol ettirin ve bir karbonmonoksit dedektörü kullanmayı düşünün.</p>
+      </div>
+      <div>
+        <h3>Şüphelenirseniz</h3>
+        <ul class="ticks">
+          <li><b>Cihazı kapatın</b>, pencere ve kapıları açın.</li>
+          <li><b>Ortamdan çıkın</b>; belirti varsa <b>112</b>'yi arayın.</li>
+          <li><b>Kontrol ettirmeden</b> cihazı yeniden çalıştırmayın.</li>
+          <li><b>Gaz kokusu</b> varsa <a href="index.html#gaz-kokusu">gaz kokusu adımlarını</a> uygulayın ve dışarıdan <b>187</b>'yi arayın.</li>
+        </ul>
+      </div>
+    </div>
+    <p class="fine">Doğal gaz iç tesisatında yeni hat, tadilat, cihaz yeri değişikliği ve gaz açma gibi işler yalnızca dağıtım şirketinin (İstanbul'da İGDAŞ) yetkilendirdiği firma ve kişilerce yapılabilir.</p>
+  </div>
+</section>
+
+<section class="band">
+  <div class="wrap band__in">
+    <div>
+      <h2 class="band__title">Kombiniz mi sorun çıkarıyor?</h2>
+      <p>Belirtiyi anlatın, yerinde bakalım. Pazartesi–Cumartesi 24 saat açık.</p>
+    </div>
+    <div class="band__cta">
+      <a class="btn btn--light" href="tel:+905325832420"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M7.2 2.8 9.6 2.3a1 1 0 0 1 1.1.6l1.4 3.4a1 1 0 0 1-.3 1.2L10 8.9a11.6 11.6 0 0 0 5.1 5.1l1.4-1.8a1 1 0 0 1 1.2-.3l3.4 1.4a1 1 0 0 1 .6 1.1l-.5 2.4a2.2 2.2 0 0 1-2.2 1.8A16.6 16.6 0 0 1 2.4 4.8a2.2 2.2 0 0 1 1.8-2z" transform="translate(0 1)"/></svg>0532 583 24 20</a>
+      <a class="btn btn--outline" href="servis-talebi.html?cihaz=kombi"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="4.5" y="3" width="15" height="18" rx="2.5" fill="none" stroke="currentColor" stroke-width="1.9"/><path d="M8 8h8M8 12h8M8 16h5" stroke="currentColor" stroke-width="1.9" stroke-linecap="round"/></svg>Talep oluştur</a>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="foot">
+  <div class="wrap foot__grid">
+    <div class="foot__brand">
+      <a class="brand brand--foot" href="index.html" aria-label="MRV Teknik ana sayfa"><svg class="brand__mark" viewBox="0 0 40 40" aria-hidden="true"><circle cx="20" cy="20" r="19.5" fill="#1A1D21"/><path d="M15 33.6A14.5 14.5 0 0 1 15 6.4" fill="none" stroke="#2E86DE" stroke-width="4.2" stroke-linecap="round"/><path d="M25 6.4A14.5 14.5 0 0 1 25 33.6" fill="none" stroke="#E4572E" stroke-width="4.2" stroke-linecap="round"/><circle cx="20" cy="20" r="6.6" fill="#FBFAF7"/><circle cx="23.3" cy="16.7" r="1.6" fill="#1A1D21"/></svg><span class="brand__txt"><b>MRV Teknik</b><small>Kombi klima servisi · Petek temizleme</small></span></a>
+      <p>Pendik'te kombi bakımı ve arızası, klima bakımı ve montajı, petek temizliği.</p>
+      <a class="foot__rate" href="https://search.google.com/local/reviews?placeid=ChIJ-3X5_5TbyhQR1tXEZ47goQM" target="_blank" rel="noopener">Google'da 4,9 puan · 638 yorum</a>
+    </div>
+    <div>
+      <h2 class="foot__h">İletişim</h2>
+      <a class="foot__tel" href="tel:+905325832420"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M7.2 2.8 9.6 2.3a1 1 0 0 1 1.1.6l1.4 3.4a1 1 0 0 1-.3 1.2L10 8.9a11.6 11.6 0 0 0 5.1 5.1l1.4-1.8a1 1 0 0 1 1.2-.3l3.4 1.4a1 1 0 0 1 .6 1.1l-.5 2.4a2.2 2.2 0 0 1-2.2 1.8A16.6 16.6 0 0 1 2.4 4.8a2.2 2.2 0 0 1 1.8-2z" transform="translate(0 1)"/></svg>0532 583 24 20</a>
+      <a class="foot__wa" href="https://wa.me/905325832420" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3.2a8.6 8.6 0 0 0-7.4 13l-1.2 4.5 4.6-1.2A8.6 8.6 0 1 0 12 3.2z" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linejoin="round"/><path fill="currentColor" d="M9.1 7.6c.3 0 .5 0 .7.5l.8 1.9c.1.2 0 .5-.1.7l-.6.7c.6 1.2 1.6 2.2 2.9 2.8l.7-.8c.2-.2.4-.3.7-.2l1.9.9c.3.1.4.3.4.6 0 .9-.8 1.8-1.8 1.8-2.9 0-6.8-3.4-6.8-6.7 0-1.2.6-2.2 1.2-2.2z"/></svg>WhatsApp'tan yazın</a>
+      <p class="foot__addr">Şeyhli, Molla Gürani Cd. 10a, 34906 Pendik/İstanbul</p>
+      <a class="foot__link" href="https://www.google.com/maps/dir/?api=1&destination=MRV%20TEKNIK%20KOMBI%20KLIMA%20SERVISI%20PENDIK%20PETEK%20TEMIZLEME%2C%20%C5%9Eeyhli%2C%20Molla%20G%C3%BCrani%20Cd.%2010a%2C%2034906%20Pendik%20%C4%B0stanbul&destination_place_id=ChIJ-3X5_5TbyhQR1tXEZ47goQM" target="_blank" rel="noopener">Yol tarifi al</a>
+    </div>
+    <div>
+      <h2 class="foot__h">Çalışma saatleri</h2>
+      <p>Pazartesi–Cumartesi: 24 saat açık<br>Pazar: 13:00–20:00</p>
+      <p class="foot__gas">Gaz kokusu alırsanız binayı terk edip dışarıdan <a href="tel:187">187</a> Doğalgaz Acil'i arayın.</p>
+    </div>
+    <nav aria-label="Alt menü">
+      <h2 class="foot__h">Sayfalar</h2>
+      <ul class="foot__links">
+          <li><a href="index.html">Ana sayfa</a></li>
+          <li><a href="kombi.html">Kombi</a></li>
+          <li><a href="klima.html">Klima</a></li>
+          <li><a href="petek-temizligi.html">Petek temizliği</a></li>
+          <li><a href="servis-talebi.html">Servis talebi</a></li>
+          <li><a href="iletisim.html">İletişim</a></li>
+      </ul>
+    </nav>
+  </div>
+  <div class="wrap foot__base">
+    <p>© MRV Teknik · Fotoğraflar temsilidir; çizimler bu site için hazırlanmıştır. Bilgi sayfaları genel rehberdir, cihazınızın kullanma kılavuzunun yerini tutmaz.</p>
+  </div>
+</footer>
+<div class="dock" role="navigation" aria-label="Hızlı iletişim">
+  <a class="dock__call" href="tel:+905325832420"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M7.2 2.8 9.6 2.3a1 1 0 0 1 1.1.6l1.4 3.4a1 1 0 0 1-.3 1.2L10 8.9a11.6 11.6 0 0 0 5.1 5.1l1.4-1.8a1 1 0 0 1 1.2-.3l3.4 1.4a1 1 0 0 1 .6 1.1l-.5 2.4a2.2 2.2 0 0 1-2.2 1.8A16.6 16.6 0 0 1 2.4 4.8a2.2 2.2 0 0 1 1.8-2z" transform="translate(0 1)"/></svg><span>Ara</span></a>
+  <a class="dock__wa" href="https://wa.me/905325832420" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3.2a8.6 8.6 0 0 0-7.4 13l-1.2 4.5 4.6-1.2A8.6 8.6 0 1 0 12 3.2z" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linejoin="round"/><path fill="currentColor" d="M9.1 7.6c.3 0 .5 0 .7.5l.8 1.9c.1.2 0 .5-.1.7l-.6.7c.6 1.2 1.6 2.2 2.9 2.8l.7-.8c.2-.2.4-.3.7-.2l1.9.9c.3.1.4.3.4.6 0 .9-.8 1.8-1.8 1.8-2.9 0-6.8-3.4-6.8-6.7 0-1.2.6-2.2 1.2-2.2z"/></svg><span>WhatsApp</span></a>
+  <a class="dock__req" href="servis-talebi.html"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="4.5" y="3" width="15" height="18" rx="2.5" fill="none" stroke="currentColor" stroke-width="1.9"/><path d="M8 8h8M8 12h8M8 16h5" stroke="currentColor" stroke-width="1.9" stroke-linecap="round"/></svg><span>Talep</span></a>
+</div>
+<script src="assets/js/site.js" defer></script>
+</body>
+</html>

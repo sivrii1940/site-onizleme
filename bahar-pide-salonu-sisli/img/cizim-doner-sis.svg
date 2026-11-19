@@ -1,0 +1,142 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="400" viewBox="0 0 860 400">
+  <title>Şişte döner çizimi</title>
+  <defs>
+    <pattern id="cini" width="40" height="40" patternUnits="userSpaceOnUse" x="10" y="0">
+      <rect width="40" height="40" fill="#FBFBF8"/>
+      <path d="M40 0H0V40" fill="none" stroke="#D6D6CF" stroke-width="2"/>
+    </pattern>
+    <linearGradient id="ates" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#F08A3C"/><stop offset=".5" stop-color="#FFD27A"/><stop offset="1" stop-color="#F08A3C"/>
+    </linearGradient>
+    <linearGradient id="et-golge" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#E7A46A" stop-opacity=".5"/>
+      <stop offset=".22" stop-color="#E7A46A" stop-opacity="0"/>
+      <stop offset=".7" stop-color="#2A1206" stop-opacity="0"/>
+      <stop offset="1" stop-color="#2A1206" stop-opacity=".45"/>
+    </linearGradient>
+    <linearGradient id="celik" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#E9EBE7"/><stop offset="1" stop-color="#AEB1AB"/>
+    </linearGradient>
+    <clipPath id="koni-kes">
+      <path d="M338 82c0-12 184-12 184 0l-36 196c0 12-112 12-112 0z"/>
+    </clipPath>
+  </defs>
+
+  <!-- çini duvar ve bordür -->
+  <rect width="860" height="400" fill="url(#cini)"/>
+  <rect y="296" width="860" height="14" fill="#FFFFFF"/>
+  <g>
+    <rect y="298" width="860" height="10" fill="#D7263D"/>
+    <g fill="#1B998B">
+      <rect x="34" y="298" width="10" height="10"/><rect x="80" y="298" width="10" height="10"/><rect x="126" y="298" width="10" height="10"/><rect x="172" y="298" width="10" height="10"/><rect x="218" y="298" width="10" height="10"/><rect x="264" y="298" width="10" height="10"/><rect x="310" y="298" width="10" height="10"/><rect x="356" y="298" width="10" height="10"/><rect x="402" y="298" width="10" height="10"/><rect x="448" y="298" width="10" height="10"/><rect x="494" y="298" width="10" height="10"/><rect x="540" y="298" width="10" height="10"/><rect x="586" y="298" width="10" height="10"/><rect x="632" y="298" width="10" height="10"/><rect x="678" y="298" width="10" height="10"/><rect x="724" y="298" width="10" height="10"/><rect x="770" y="298" width="10" height="10"/><rect x="816" y="298" width="10" height="10"/>
+    </g>
+  </g>
+  <!-- çelik tezgâh -->
+  <rect y="310" width="860" height="90" fill="url(#celik)"/>
+  <path d="M0 312H860" stroke="#1B1B1B" stroke-width="4"/>
+  <path d="M60 330h180M520 334h220" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" opacity=".7"/>
+
+  <!-- duvar tabağı -->
+  <g transform="translate(208 150)">
+    <path d="M0 -62v14" stroke="#6B6B66" stroke-width="3"/>
+    <circle r="48" fill="#FFFFFF" stroke="#1B1B1B" stroke-width="4"/>
+    <circle r="38" fill="none" stroke="#D7263D" stroke-width="5"/>
+    <circle r="30" fill="none" stroke="#1B998B" stroke-width="1.8" stroke-dasharray="4 5"/>
+    <path d="M-24 1c5-10 13-15 24-15s19 5 24 13c-5 10-13 14-24 14S-19 10-24 1z" fill="#F2C27C" stroke="#A86A2B" stroke-width="3"/>
+    <path d="M-14 1c4-5 24-5 28 0-4 5-24 5-28 0z" fill="#D7263D"/>
+  </g>
+  <!-- duvar saati -->
+  <g transform="translate(704 116)">
+    <circle r="36" fill="#FFFFFF" stroke="#1B1B1B" stroke-width="4.5"/>
+    <g stroke="#1B1B1B" stroke-width="3" stroke-linecap="round"><path d="M0 -28v6M28 0h-6M0 28v-6M-28 0h6"/></g>
+    <path d="M0 0V-20M0 0l-13 4" stroke="#D7263D" stroke-width="4" stroke-linecap="round"/>
+    <circle r="3.5" fill="#1B1B1B"/>
+  </g>
+
+  <!-- ocak (arkada ısıtıcı panel) -->
+  <rect x="316" y="44" width="228" height="256" rx="18" fill="#2B2B29" stroke="#1B1B1B" stroke-width="4"/>
+  <g fill="url(#ates)">
+    <rect x="330" y="66" width="200" height="22" rx="8"/>
+    <rect x="330" y="102" width="200" height="22" rx="8"/>
+    <rect x="330" y="138" width="200" height="22" rx="8"/>
+    <rect x="330" y="174" width="200" height="22" rx="8"/>
+    <rect x="330" y="210" width="200" height="22" rx="8"/>
+    <rect x="330" y="246" width="200" height="22" rx="8"/>
+  </g>
+  <g fill="#FFF3D6" opacity=".7">
+    <rect x="334" y="72" width="16" height="4" rx="2"/><rect x="334" y="108" width="16" height="4" rx="2"/><rect x="334" y="144" width="16" height="4" rx="2"/><rect x="334" y="180" width="16" height="4" rx="2"/><rect x="334" y="216" width="16" height="4" rx="2"/><rect x="334" y="252" width="16" height="4" rx="2"/>
+    <rect x="510" y="72" width="16" height="4" rx="2"/><rect x="510" y="108" width="16" height="4" rx="2"/><rect x="510" y="144" width="16" height="4" rx="2"/><rect x="510" y="180" width="16" height="4" rx="2"/><rect x="510" y="216" width="16" height="4" rx="2"/><rect x="510" y="252" width="16" height="4" rx="2"/>
+  </g>
+
+  <!-- şiş -->
+  <path d="M430 48V300" stroke="#5E605B" stroke-width="9" stroke-linecap="round"/>
+  <path d="M428 48V300" stroke="#9EA19B" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- döner konisi -->
+  <g clip-path="url(#koni-kes)">
+    <rect x="330" y="60" width="200" height="230" fill="#8C4A22"/>
+    <g fill="#7A3E1B">
+      <path d="M330 92c40 6 80-4 110 2s60 0 90-4v12c-30 4-60 8-90 2s-70 6-110-2z"/>
+      <path d="M330 128c40 6 80-4 110 2s60 0 90-4v12c-30 4-60 8-90 2s-70 6-110-2z"/>
+      <path d="M330 164c40 6 80-4 110 2s60 0 90-4v12c-30 4-60 8-90 2s-70 6-110-2z"/>
+      <path d="M330 200c40 6 80-4 110 2s60 0 90-4v12c-30 4-60 8-90 2s-70 6-110-2z"/>
+      <path d="M330 236c40 6 80-4 110 2s60 0 90-4v12c-30 4-60 8-90 2s-70 6-110-2z"/>
+    </g>
+    <g fill="none" stroke="#C97B45" stroke-width="3.5" stroke-linecap="round">
+      <path d="M346 84c18 4 34 0 50 2M412 118c22 4 44 0 64-2M352 152c20 3 36-1 54 1M440 190c18 3 34 0 48-2M368 226c18 3 32 0 46 1M430 262c16 2 28 0 40-2"/>
+    </g>
+    <g fill="none" stroke="#4A220C" stroke-width="2.2" stroke-linecap="round" opacity=".8">
+      <path d="M470 96c14 2 26 0 40-3M340 112c14 2 26 1 38 0M480 146c10 2 20 1 30-1M346 186c14 2 24 1 36 0M470 222c12 2 22 0 32-2M372 258c12 2 22 1 32 0"/>
+    </g>
+    <!-- kesilmiş yüz -->
+    <path d="M356 78c-4 60 6 130 26 206l26-2c-18-74-26-142-22-206z" fill="#B8735A"/>
+    <g stroke="#9A5A42" stroke-width="2"><path d="M360 104h26M362 132h26M366 160h24M370 188h24M374 216h24M380 244h22"/></g>
+    <path d="M356 78c-4 60 6 130 26 206" fill="none" stroke="#5A2B10" stroke-width="3"/>
+    <rect x="330" y="60" width="200" height="230" fill="url(#et-golge)"/>
+  </g>
+  <path d="M338 82c0-12 184-12 184 0l-36 196c0 12-112 12-112 0z" fill="none" stroke="#3A1A0C" stroke-width="4.5" stroke-linejoin="round"/>
+
+  <!-- üst kapak ve domates -->
+  <ellipse cx="430" cy="78" rx="100" ry="13" fill="#C9CBC6" stroke="#1B1B1B" stroke-width="4"/>
+  <ellipse cx="420" cy="74" rx="56" ry="4" fill="#FFFFFF" opacity=".6"/>
+  <circle cx="430" cy="52" r="18" fill="#D7263D" stroke="#1B1B1B" stroke-width="4"/>
+  <path d="M421 45c4-4 9-5 13-3" fill="none" stroke="#FF8A99" stroke-width="4" stroke-linecap="round"/>
+  <path d="M423 35c4 2 10 2 14 0M430 35v-5" fill="none" stroke="#2C6B2F" stroke-width="4" stroke-linecap="round"/>
+
+  <!-- yağ tavası -->
+  <path d="M362 290h136l-10 18h-116z" fill="#C9CBC6" stroke="#1B1B1B" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M378 296h40" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" opacity=".8"/>
+
+  <!-- döner bıçağı -->
+  <g transform="translate(496 186) rotate(40) scale(.72)">
+    <path d="M0 0c40-10 110-14 168-8l2 18c-60 4-128 6-170 0-6-2-6-8 0-10z" fill="#E4E6E2" stroke="#1B1B1B" stroke-width="4" stroke-linejoin="round"/>
+    <path d="M14 4c44-6 100-8 144-5" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+    <rect x="168" y="-6" width="92" height="28" rx="9" fill="#1B1B1B"/>
+    <g fill="#C9C9C1"><circle cx="190" cy="8" r="4"/><circle cx="214" cy="8" r="4"/><circle cx="238" cy="8" r="4"/></g>
+  </g>
+
+  <!-- sol: kesme tahtasında dilimler -->
+  <g transform="translate(150 262)">
+    <path d="M0 30h170l-8 22H8z" fill="#3A1A0C" opacity=".18"/>
+    <rect x="0" y="22" width="170" height="26" rx="6" fill="#C48A55" stroke="#7E5230" stroke-width="3.5"/>
+    <path d="M14 32h110" stroke="#A9733F" stroke-width="2.5" stroke-linecap="round"/>
+    <g stroke="#4A220C" stroke-width="2.4" stroke-linejoin="round">
+      <path d="M22 24c10-12 30-16 46-12 12 3 22 2 30 8-8 8-24 10-40 8-14-2-26 2-36-4z" fill="#8C4A22"/>
+      <path d="M60 20c12-12 34-14 50-8 10 4 20 4 28 10-10 8-26 8-42 6-14-2-28 0-36-8z" fill="#A45A2C"/>
+      <path d="M40 10c10-10 28-12 42-8 10 3 18 2 24 7-8 7-20 9-34 7-12-1-24 0-32-6z" fill="#8C4A22"/>
+    </g>
+    <path d="M48 6c10-4 22-4 30-2M74 16c10-4 22-4 32-2" fill="none" stroke="#DC9563" stroke-width="2.6" stroke-linecap="round"/>
+  </g>
+
+  <!-- sağ: turşu kavanozu -->
+  <g transform="translate(672 194)">
+    <rect x="6" y="0" width="64" height="16" rx="4" fill="#D7263D" stroke="#1B1B1B" stroke-width="3.5"/>
+    <path d="M0 26c0-6 4-10 10-10h56c6 0 10 4 10 10v78c0 8-6 12-12 12H12c-6 0-12-4-12-12z" fill="#E6F2D8" fill-opacity=".85" stroke="#1B1B1B" stroke-width="4"/>
+    <g stroke="#2C4A16" stroke-width="2.5" stroke-linejoin="round">
+      <path d="M14 108c-4-24 0-56 8-74 4-4 8-2 8 2-2 22-2 48 0 72z" fill="#8DB73B"/>
+      <path d="M34 108c-2-26 2-52 10-66 4-4 9-2 8 3-4 20-6 42-4 63z" fill="#A5C94E"/>
+      <path d="M50 108c0-20 4-40 10-50 3-3 7-1 6 3-2 14-4 30-4 47z" fill="#D7263D"/>
+    </g>
+    <path d="M8 32v62" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" opacity=".8"/>
+  </g>
+</svg>

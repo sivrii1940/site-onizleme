@@ -1,0 +1,291 @@
+<!doctype html>
+<html lang="tr" class="no-js">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Kilo ile sipariş hesaplayıcı · AHM.ET Gece Döneri, Esenler</title>
+<meta name="description" content="Kaç kişiye kaç kilo döner ya da kanat? Kişi sayısı, iştah ve sofraya göre yaklaşık miktarı hesaplayın, siparişi WhatsApp mesajına çevirin.">
+<meta name="robots" content="noindex, nofollow">
+<meta name="theme-color" content="#0D0B14">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230D0B14'/%3E%3Cpath d='M32 5v54' stroke='%23FFE600' stroke-width='3' stroke-linecap='round'/%3E%3Cpath d='M18 17c0-5 6-8 14-8s14 3 14 8l-3 17-4 15H25l-4-15z' fill='none' stroke='%23FF2E88' stroke-width='4.5' stroke-linejoin='round'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bungee&amp;family=Kanit:wght@400;500;600;700&amp;display=swap">
+<link rel="stylesheet" href="assets/css/site.css">
+</head>
+<body>
+<svg aria-hidden="true" focusable="false" style="position:absolute;width:0;height:0;overflow:hidden">
+ <defs>
+  <symbol id="i-tel" viewBox="0 0 24 24"><path d="M6.6 3.5h2.6l1.6 4.2-2 1.3a10.6 10.6 0 0 0 5.2 5.2l1.3-2 4.2 1.6v2.6a2 2 0 0 1-2.1 2A15.5 15.5 0 0 1 4.6 5.6a2 2 0 0 1 2-2.1z" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linejoin="round"/></symbol>
+  <symbol id="i-msg" viewBox="0 0 24 24"><path d="M12 3.6c4.8 0 8.5 3.3 8.5 7.5s-3.7 7.5-8.5 7.5c-1 0-2-.1-2.9-.4L4.4 20l1.3-3.6a7.2 7.2 0 0 1-2.2-5.3c0-4.2 3.7-7.5 8.5-7.5z" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linejoin="round"/><circle cx="8.4" cy="11.1" r="1.15" fill="currentColor"/><circle cx="12" cy="11.1" r="1.15" fill="currentColor"/><circle cx="15.6" cy="11.1" r="1.15" fill="currentColor"/></symbol>
+  <symbol id="i-kg" viewBox="0 0 24 24"><circle cx="12" cy="6" r="2.7" fill="none" stroke="currentColor" stroke-width="1.9"/><path d="M7.4 9.4h9.2l2.7 11.1H4.7z" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linejoin="round"/><path d="M9.6 13.2v4.4M9.6 15.4l2.3-2.2M10.4 14.8l1.7 2.8M14.9 13.6h-1.1a1.3 1.3 0 0 0-1.3 1.3v1.4a1.3 1.3 0 0 0 1.3 1.3h1.1v-1.9h-1" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  <symbol id="i-pin" viewBox="0 0 24 24"><path d="M12 21.2s-6.8-6-6.8-11.2a6.8 6.8 0 0 1 13.6 0c0 5.2-6.8 11.2-6.8 11.2z" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linejoin="round"/><circle cx="12" cy="10" r="2.5" fill="none" stroke="currentColor" stroke-width="1.9"/></symbol>
+  <symbol id="i-route" viewBox="0 0 24 24"><path d="M5 20v-5.5c0-2.5 2-4.5 4.5-4.5H19M15 6l4 4-4 4" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  <symbol id="i-star" viewBox="0 0 24 24"><path d="M12 2.8l2.75 5.6 6.15.9-4.45 4.33 1.05 6.12L12 16.85l-5.5 2.9 1.05-6.12L3.1 9.3l6.15-.9z" fill="currentColor"/></symbol>
+  <symbol id="i-copy" viewBox="0 0 24 24"><rect x="8.5" y="8.5" width="11" height="11" rx="2.2" fill="none" stroke="currentColor" stroke-width="1.9"/><path d="M15.5 8.5V6.7a2.2 2.2 0 0 0-2.2-2.2H6.7a2.2 2.2 0 0 0-2.2 2.2v6.6a2.2 2.2 0 0 0 2.2 2.2h1.8" fill="none" stroke="currentColor" stroke-width="1.9"/></symbol>
+  <symbol id="i-bag" viewBox="0 0 24 24"><path d="M5.2 8.2h13.6l-1.1 12.3H6.3z" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linejoin="round"/><path d="M9 8.2V7a3 3 0 0 1 6 0v1.2" fill="none" stroke="currentColor" stroke-width="1.9"/></symbol>
+ </defs>
+</svg>
+<a class="skip" href="#icerik">İçeriğe geç</a>
+<div class="pv" data-preview-note>Önizleme: Bu tasarım AHM.ET Gece Döneri için hazırlanmış bir örnektir.</div>
+<header class="site-head">
+ <div class="head-in">
+  <a class="brand" href="index.html" aria-label="AHM.ET Gece Döneri, ana sayfa"><svg class="brand-mark" viewBox="0 0 30 44" aria-hidden="true" focusable="false"><path d="M15 2v40" stroke="#FFF9C9" stroke-width="2" stroke-linecap="round"/><path d="M5 11c0-3 4-5.2 10-5.2S25 8 25 11l-2 12-3 11.5H10L7 23z" fill="none" stroke="#FFE0EE" stroke-width="2.4" stroke-linejoin="round"/><path d="M7.4 16.5h15.2M8.6 22.5h12.8M9.8 28.5h10.4" stroke="#FF78B4" stroke-width="1.6" stroke-linecap="round"/></svg><span class="brand-txt"><span class="brand-top">AHM.ET</span><span class="brand-sub">Gece Döneri</span></span></a>
+  <span class="openflag" data-openflag aria-hidden="true"></span>
+  <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav"><span class="bars" aria-hidden="true"><i></i><i></i><i></i></span>Sayfalar</button>
+  <nav id="site-nav" class="site-nav" aria-label="Site sayfaları">
+   <ul>
+    <li><a href="index.html">Ana sayfa</a></li>
+    <li><a href="menu.html">Menü</a></li>
+    <li><a href="kilo-ile-siparis.html" aria-current="page">Kilo ile sipariş</a></li>
+    <li><a href="sss.html">Sorular</a></li>
+    <li><a href="iletisim.html">İletişim</a></li>
+   </ul>
+   <a class="btn btn-pink nav-call" href="tel:+905425587927"><svg aria-hidden="true"><use href="#i-tel"/></svg>0542 558 79 27</a>
+  </nav>
+ </div>
+</header>
+<main id="icerik">
+ <section class="page-hero">
+  <div class="wrap ph-grid">
+   <div>
+    <h1 class="page-title">Kilo ile sipari<span class="flk">ş</span></h1>
+    <p class="page-lead">Kalabalık sofraya döner ya da kanat alırken ilk soru hep aynı: “Kaç kilo yeter?” Kişi sayısını ve sofranızı anlatın; kantar yaklaşık miktarı tartsın, sipariş tek dokunuşla WhatsApp mesajına dönsün.</p>
+    <p class="page-status"><span class="live-dot" aria-hidden="true"></span><span data-status>Her gün açık · kapanış 04:00</span></p>
+   </div>
+   <div class="ph-art" aria-hidden="true">
+    <svg viewBox="0 0 240 200" fill="none" stroke-linecap="round" stroke-linejoin="round">
+     <path d="M40 182h160l-14-74H54z" stroke="#FFE0EE" stroke-width="5"/>
+     <circle cx="120" cy="146" r="22" stroke="#FFE0EE" stroke-width="4"/>
+     <path d="M120 146l12-12" stroke="#FFF9C9" stroke-width="4"/>
+     <path d="M120 108V74" stroke="#FFE0EE" stroke-width="5"/>
+     <path d="M58 74h124" stroke="#FFE0EE" stroke-width="5"/>
+     <path d="M74 66c4-26 22-40 46-40s42 14 46 40" stroke="#FFF9C9" stroke-width="4"/>
+     <path d="M92 52h56M86 62h68" stroke="#FF78B4" stroke-width="3"/>
+    </svg>
+    <span class="badge"><span><b>04:00</b>’e kadar</span></span>
+   </div>
+  </div>
+ </section>
+
+ <section class="sec" aria-labelledby="h-tool">
+  <div class="wrap">
+   <h2 id="h-tool" class="h-y">Hesaplayıcı</h2>
+   <p class="lead">Seçimleri değiştirdikçe kantar ve mesaj kendiliğinden güncellenir.</p>
+   <div class="calc-full" data-tool="kilo-hesaplayici" data-calc data-calc-full>
+
+    <div class="scale scale--big">
+      <p class="scale-cap">Kantar</p>
+      <div class="scale-screen" aria-live="polite">
+       <p class="scale-read"><span data-kg>1,00</span><small>kg</small></p>
+       <ul class="scale-break" data-breakdown><li>Et döner: <b>yaklaşık 1,00 kg</b></li></ul>
+       <div class="blocks" data-blocks aria-hidden="true"></div>
+      </div>
+      <p class="scale-bread" data-bread>Lavaş / ekmek için kabaca 9 adet düşünün (kişi başı bir buçuk, çocuğa bir).</p>
+    </div>
+    <form class="calc-form" action="#" onsubmit="return false">
+     <div class="two">
+      <div class="field"><span id="l-y">Yetişkin</span>
+       <div class="stepper"><button type="button" data-step="-1" data-for="yetiskin" aria-label="Bir yetişkin azalt">−</button><input type="number" name="yetiskin" value="6" min="0" max="120" inputmode="numeric" aria-labelledby="l-y"><button type="button" data-step="1" data-for="yetiskin" aria-label="Bir yetişkin artır">+</button></div>
+      </div>
+      <div class="field"><span id="l-c">Çocuk</span>
+       <div class="stepper"><button type="button" data-step="-1" data-for="cocuk" aria-label="Bir çocuk azalt">−</button><input type="number" name="cocuk" value="0" min="0" max="60" inputmode="numeric" aria-labelledby="l-c"><button type="button" data-step="1" data-for="cocuk" aria-label="Bir çocuk artır">+</button></div>
+      </div>
+     </div>
+     <fieldset>
+      <legend>Ne alacaksınız? <small>(birden çok seçebilirsiniz)</small></legend>
+      <div class="chips">
+       <label class="chip"><input type="checkbox" name="urun" value="et" checked><span>Et döner</span></label>
+       <label class="chip"><input type="checkbox" name="urun" value="tavuk"><span>Tavuk döner</span></label>
+       <label class="chip"><input type="checkbox" name="urun" value="kanat"><span>Kilo ile kanat</span></label>
+      </div>
+     </fieldset>
+     <fieldset>
+      <legend>İştah</legend>
+      <div class="chips">
+       <label class="chip"><input type="radio" name="istah" value="hafif"><span>Hafif</span></label>
+       <label class="chip"><input type="radio" name="istah" value="normal" checked><span>Normal</span></label>
+       <label class="chip"><input type="radio" name="istah" value="doyurucu"><span>Doyurucu</span></label>
+      </div>
+     </fieldset>
+     <fieldset>
+      <legend>Sofrada başka ne var?</legend>
+      <div class="chips">
+       <label class="chip"><input type="radio" name="sofra" value="tek" checked><span>Tek ana yemek bu</span></label>
+       <label class="chip"><input type="radio" name="sofra" value="yanli"><span>Pilav, meze, salata da var</span></label>
+       <label class="chip"><input type="radio" name="sofra" value="kalabalik"><span>Başka ana yemekler de var</span></label>
+      </div>
+     </fieldset>
+     <fieldset>
+      <legend>Yanına <small>(mesaja eklenir; olup olmadığını sorarsınız)</small></legend>
+      <div class="chips">
+       <label class="chip"><input type="checkbox" name="yan" value="lavas" checked><span>Lavaş / ekmek</span></label>
+       <label class="chip"><input type="checkbox" name="yan" value="sogus"><span>Söğüş</span></label>
+       <label class="chip"><input type="checkbox" name="yan" value="tursu"><span>Turşu</span></label>
+       <label class="chip"><input type="checkbox" name="yan" value="ayran"><span>Ayran / içecek</span></label>
+      </div>
+     </fieldset>
+     <fieldset>
+      <legend>Nasıl alacaksınız?</legend>
+      <div class="chips">
+       <label class="chip"><input type="radio" name="teslim" value="gelal" checked><span>Gelip alacağım</span></label>
+       <label class="chip"><input type="radio" name="teslim" value="paket"><span>Paket servis istiyorum</span></label>
+      </div>
+     </fieldset>
+     <div class="two">
+      <label class="field"><span>Gün</span><select class="input" name="gun"><option value="0">Bugün</option><option value="1">Yarın</option><option value="x">Başka gün</option></select></label>
+      <label class="field"><span>Saat <small>(isteğe bağlı)</small></span><input class="input" type="time" name="saat" step="900"></label>
+     </div>
+     <p class="warn" data-timewarn hidden></p>
+     <label class="field"><span>Not</span><textarea class="input" name="not" rows="2" placeholder="Ör. yarısı acısız olsun, kapıda zil bozuk"></textarea></label>
+    </form>
+    <div class="calc-msg">
+     <p class="msg-label">Gidecek mesaj</p>
+     <p class="msg" data-msg>Merhaba AHM.ET Gece Döneri, kilo ile sipariş vermek istiyorum.</p>
+     <div class="btn-row">
+      <a class="btn btn-pink" data-wa href="https://wa.me/905425587927?text=Merhaba%20AHM.ET%20Gece%20D%C3%B6neri%2C%20sipari%C5%9F%20vermek%20istiyorum." target="_blank" rel="noopener"><svg aria-hidden="true"><use href="#i-msg"/></svg>WhatsApp’ta gönder</a>
+      <a class="btn btn-tube-y" href="tel:+905425587927"><svg aria-hidden="true"><use href="#i-tel"/></svg>Ara</a>
+      <button type="button" class="btn btn-ghost" data-copy><svg aria-hidden="true"><use href="#i-copy"/></svg><span data-copy-label>Mesajı kopyala</span></button>
+     </div>
+     <p class="tiny">Hesap genel bir ev ölçüsüdür, işletmenin porsiyon gramajı değildir. Miktarı ve fiyatı siparişte teyit edin. Mesaj siz göndermeden hiçbir yere gitmez.</p>
+    </div>
+   </div>
+  </div>
+ </section>
+
+ <section class="sec" aria-labelledby="h-how">
+  <div class="wrap how-grid">
+   <div>
+    <h2 id="h-how">Hesap nasıl yapılıyor?</h2>
+    <p class="lead">Hesaplayıcı, ev sofralarında yaygın kullanılan kişi başı ölçülerle çalışır. Gizli bir formül yok:</p>
+    <dl class="factors">
+     <div><dt>Döner (et ya da tavuk)</dt><dd>Normal iştahlı bir yetişkin için yaklaşık 150 gram.</dd></div>
+     <div><dt>Kanat</dt><dd>Kemikli olduğu için kişi başı yaklaşık 300 gram.</dd></div>
+     <div><dt>Çocuk</dt><dd>Yetişkin payının yarısı.</dd></div>
+     <div><dt>İştah</dt><dd>Hafif × 0,8 · normal × 1 · doyurucu × 1,25.</dd></div>
+     <div><dt>Sofra</dt><dd>Yanında pilav, meze, salata varsa × 0,85; başka ana yemekler de varsa × 0,65.</dd></div>
+     <div><dt>Birden çok ürün</dt><dd>Kişiler seçtiğiniz ürünlere eşit bölünür: yarısı döner, yarısı kanat gibi.</dd></div>
+     <div><dt>Yuvarlama</dt><dd>Her ürün çeyrek kiloya yukarı yuvarlanır; az gelmesin.</dd></div>
+    </dl>
+   </div>
+   <div class="measure-box">
+    <h3>Hızlı ölçü tablosu</h3>
+    <p class="muted">Normal iştah, döner ya da kanat tek ana yemekken, yalnız yetişkinler için yaklaşık miktarlar.</p>
+    <table class="measure">
+     <caption class="sr-only">Kişi sayısına göre yaklaşık döner ve kanat miktarı</caption>
+     <thead><tr><th scope="col">Kişi</th><th scope="col">Döner</th><th scope="col">Kanat</th></tr></thead>
+     <tbody>
+      <tr><td>2</td><td>0,50 kg</td><td>0,75 kg</td></tr>
+      <tr><td>4</td><td>0,75 kg</td><td>1,25 kg</td></tr>
+      <tr><td>6</td><td>1,00 kg</td><td>2,00 kg</td></tr>
+      <tr><td>8</td><td>1,25 kg</td><td>2,50 kg</td></tr>
+      <tr><td>10</td><td>1,50 kg</td><td>3,00 kg</td></tr>
+      <tr><td>15</td><td>2,25 kg</td><td>4,50 kg</td></tr>
+      <tr><td>20</td><td>3,00 kg</td><td>6,00 kg</td></tr>
+      <tr><td>30</td><td>4,50 kg</td><td>9,00 kg</td></tr>
+     </tbody>
+    </table>
+   </div>
+  </div>
+ </section>
+
+ <section class="sec" aria-labelledby="h-steps" style="padding-top:20px">
+  <div class="wrap">
+   <h2 id="h-steps" class="h-w">Kilo ile sipariş, baştan sona</h2>
+   <ol class="steps">
+    <li><h3>Hesaplayın</h3><p>Kişi sayısını, iştahı ve sofrada başka ne olduğunu seçin. Kantar yaklaşık miktarı gösterir.</p></li>
+    <li><h3>Gönderin ya da arayın</h3><p>Hazır mesajı WhatsApp’tan gönderin, kopyalayıp başka bir yere yapıştırın ya da doğrudan arayın.</p></li>
+    <li><h3>Netleştirin</h3><p>Miktarı, fiyatı, hazır olma saatini ve ne kadar önceden haber vermeniz gerektiğini telefonda teyit edin.</p></li>
+    <li><h3>Alın ya da gelsin</h3><p>Gelip alacaksanız adres Kazım Karabekir Cd. No: 90A. Paket servis için adresinizin kapsamda olup olmadığını sorun.</p></li>
+   </ol>
+  </div>
+ </section>
+
+ <section class="sec" aria-labelledby="h-care">
+  <div class="wrap care-grid">
+   <figure class="ph ph-frame">
+    <img src="img/doner-porsiyon.jpg" width="1024" height="768" alt="Pideli, közlenmiş biberli döner tabağı" loading="lazy" decoding="async">
+    <span class="tag">Temsili görsel</span>
+    <figcaption>Pideli döner tabağı. <span class="credit">Fotoğraf: mdid, CC BY 2.0</span></figcaption>
+   </figure>
+   <div>
+    <h2 id="h-care">Eve götürürken ve ertesi gün</h2>
+    <p class="lead">Genel mutfak bilgisi; kalabalık sofralarda işe yarar.</p>
+    <ul class="care">
+     <li><b>Sıcak taşıyın.</b> Kabı kapalı tutun, eve varınca bekletmeden servis edin. Yol uzunsa bir havlu ya da termal çanta ısıyı korur.</li>
+     <li><b>Ekmeği ayrı tutun.</b> Lavaş ve ekmek, dönerle aynı kapta buharda kalırsa yumuşar; ayrı poşette daha iyi durur.</li>
+     <li><b>Söğüşü sofrada ekleyin.</b> Domates ve soğan sıcak etin üstünde suyunu salar; ayrı kapta gelmesini isteyebilirsiniz.</li>
+     <li><b>Artanı hızlı kaldırın.</b> Pişmiş eti oda sıcaklığında iki saatten uzun bırakmayın; kapalı kapta buzdolabına koyup bir iki gün içinde tüketin.</li>
+     <li><b>Yeniden ısıtırken.</b> Tavada, kısık ateşte, kapağı kapalı ve birkaç damla suyla ısıtın; her yeri iyice ısınıp buharı tütene kadar bekleyin.</li>
+     <li><b>Kanadı fırında ısıtın.</b> Tepsiye yayıp fırında ısıtmak, kanadın dışını mikrodalgadan daha iyi korur.</li>
+    </ul>
+   </div>
+  </div>
+ </section>
+
+ <section class="sec" aria-labelledby="h-check" style="padding-top:20px">
+  <div class="wrap">
+   <h2 id="h-check" class="h-y">Kalabalık sofra kontrol listesi</h2>
+   <p class="lead">Siparişi vermeden önce bir göz atın. İşaretleriniz yalnız bu tarayıcıda saklanır.</p>
+   <div class="checklist" data-checklist>
+    <p class="check-count"><span data-check-done>0</span> / 10 hazır</p>
+    <ul>
+     <li><label class="check"><input type="checkbox"><span>Kişi sayısı netleşti, çocuklar dahil</span></label></li>
+     <li><label class="check"><input type="checkbox"><span>Kaç kilo gerektiği hesaplandı</span></label></li>
+     <li><label class="check"><input type="checkbox"><span>Döner mi, kanat mı, karışık mı, karar verildi</span></label></li>
+     <li><label class="check"><input type="checkbox"><span>Soğansız, acısız gibi istekler not edildi</span></label></li>
+     <li><label class="check"><input type="checkbox"><span>Lavaş ve ekmek sayısı düşünüldü</span></label></li>
+     <li><label class="check"><input type="checkbox"><span>Tabak, çatal, peçete hazır</span></label></li>
+     <li><label class="check"><input type="checkbox"><span>İçecek ayarlandı</span></label></li>
+     <li><label class="check"><input type="checkbox"><span>Teslim saati ve şekli telefonda teyit edildi</span></label></li>
+     <li><label class="check"><input type="checkbox"><span>Gelip alınacaksa yol tarifine bakıldı</span></label></li>
+     <li><label class="check"><input type="checkbox"><span>Artanlar için kapaklı kap hazır</span></label></li>
+    </ul>
+    <button type="button" class="btn btn-ghost" data-check-reset>Listeyi sıfırla</button>
+   </div>
+  </div>
+ </section>
+</main>
+<footer class="site-foot">
+ <div class="wrap">
+  <div class="foot-grid">
+   <div>
+    <p class="foot-brand"><span>AHM.ET</span><em>Gece Döneri</em></p>
+    <p class="foot-name">Kilo ile Kanat Dürüm Evi · 2011 Since</p>
+    <address>Kazım Karabekir, Kazım Karabekir Cd. 90A D:34225, 34225 Esenler/İstanbul</address>
+    <div class="foot-contact">
+     <a href="tel:+905425587927"><svg aria-hidden="true"><use href="#i-tel"/></svg>0542 558 79 27</a>
+     <a href="https://wa.me/905425587927?text=Merhaba%20AHM.ET%20Gece%20D%C3%B6neri%2C%20sipari%C5%9F%20vermek%20istiyorum." target="_blank" rel="noopener"><svg aria-hidden="true"><use href="#i-msg"/></svg>WhatsApp’tan yazın</a>
+     <a href="https://www.google.com/maps/dir/?api=1&destination=AHM.ET%20GECE%20D%C3%96NER%C4%B0%20K%C4%B0LO%20%C4%B0LE%20KANAT%20D%C3%9CR%C3%9CM%20EV%C4%B0%202011%20S%C4%B0NCE%2C%20Kaz%C4%B1m%20Karabekir%2C%20Kaz%C4%B1m%20Karabekir%20Cd.%2090A%20D%3A34225%2C%2034225%20Esenler/%C4%B0stanbul&destination_place_id=ChIJF5L8o7e6yhQRBm7uD80B9xw" target="_blank" rel="noopener"><svg aria-hidden="true"><use href="#i-route"/></svg>Yol tarifi</a>
+    </div>
+   </div>
+   <div>
+    <h2>Saatler</h2>
+    <p class="foot-hours">Pazartesi–Cumartesi 12:00–04:00<br>Pazar 09:00–04:00<br>Kapanış saati ertesi günün sabahına düşer.</p>
+    <a class="rating" href="https://search.google.com/local/reviews?placeid=ChIJF5L8o7e6yhQRBm7uD80B9xw" target="_blank" rel="noopener"><svg aria-hidden="true"><use href="#i-star"/></svg><b>4,8</b><span>Google’da 426 yorum</span></a>
+   </div>
+   <div>
+    <h2>Sayfalar</h2>
+    <ul class="foot-links">
+     <li><a href="index.html">Ana sayfa</a></li>
+     <li><a href="menu.html">Menü</a></li>
+     <li><a href="kilo-ile-siparis.html">Kilo ile sipariş</a></li>
+     <li><a href="sss.html">Sorular</a></li>
+     <li><a href="iletisim.html">İletişim</a></li>
+    </ul>
+   </div>
+  </div>
+  <div class="foot-bottom">
+   <p>Sitedeki fotoğraflar temsilidir; kaynağı her fotoğrafın altında yazılıdır. Puan ve yorum sayısı Google Haritalar kaydından alınmıştır.</p>
+   <p>AHM.ET Gece Döneri · Esenler, İstanbul</p>
+  </div>
+ </div>
+</footer>
+<nav class="dock" aria-label="Hızlı iletişim">
+ <a class="d-tel" href="tel:+905425587927"><svg aria-hidden="true"><use href="#i-tel"/></svg>Ara</a>
+ <a class="d-wa" href="https://wa.me/905425587927?text=Merhaba%20AHM.ET%20Gece%20D%C3%B6neri%2C%20sipari%C5%9F%20vermek%20istiyorum." target="_blank" rel="noopener"><svg aria-hidden="true"><use href="#i-msg"/></svg>WhatsApp</a>
+ <a class="d-kg" href="menu.html"><svg aria-hidden="true"><use href="#i-bag"/></svg>Menü</a>
+</nav>
+<script src="assets/js/site.js"></script>
+</body>
+</html>

@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="400" viewBox="0 0 860 400">
+  <title>Öğle paketi çizimi</title>
+  <defs>
+    <pattern id="cini" width="40" height="40" patternUnits="userSpaceOnUse" x="10" y="0">
+      <rect width="40" height="40" fill="#FBFBF8"/>
+      <path d="M40 0H0V40" fill="none" stroke="#D6D6CF" stroke-width="2"/>
+    </pattern>
+    <linearGradient id="celik" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#E9EBE7"/><stop offset="1" stop-color="#AEB1AB"/>
+    </linearGradient>
+    <linearGradient id="kraft" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#D9A66A"/><stop offset="1" stop-color="#C99257"/>
+    </linearGradient>
+    <pattern id="kagit" width="16" height="16" patternUnits="userSpaceOnUse" patternTransform="rotate(-62)">
+      <rect width="16" height="16" fill="#FFFEF8"/>
+      <rect width="3" height="16" fill="#D7263D" fill-opacity=".18"/>
+    </pattern>
+    <g id="mini-kayik">
+      <path d="M-22 1c5-9 12-13 22-13s17 4 22 11c-5 9-12 12-22 12S-17 9-22 1z" fill="#F2C27C" stroke="#A86A2B" stroke-width="2.5"/>
+      <path d="M-13 1c4-4 22-4 26 0-4 4-22 4-26 0z" fill="#D7263D"/>
+    </g>
+  </defs>
+
+  <!-- çini duvar, bordür, tezgâh -->
+  <rect width="860" height="400" fill="url(#cini)"/>
+  <rect y="296" width="860" height="14" fill="#FFFFFF"/>
+  <rect y="298" width="860" height="10" fill="#D7263D"/>
+  <g fill="#1B998B">
+    <rect x="34" y="298" width="10" height="10"/><rect x="80" y="298" width="10" height="10"/><rect x="126" y="298" width="10" height="10"/><rect x="172" y="298" width="10" height="10"/><rect x="218" y="298" width="10" height="10"/><rect x="264" y="298" width="10" height="10"/><rect x="310" y="298" width="10" height="10"/><rect x="356" y="298" width="10" height="10"/><rect x="402" y="298" width="10" height="10"/><rect x="448" y="298" width="10" height="10"/><rect x="494" y="298" width="10" height="10"/><rect x="540" y="298" width="10" height="10"/><rect x="586" y="298" width="10" height="10"/><rect x="632" y="298" width="10" height="10"/><rect x="678" y="298" width="10" height="10"/><rect x="724" y="298" width="10" height="10"/><rect x="770" y="298" width="10" height="10"/><rect x="816" y="298" width="10" height="10"/>
+  </g>
+  <rect y="310" width="860" height="90" fill="url(#celik)"/>
+  <path d="M0 312H860" stroke="#1B1B1B" stroke-width="4"/>
+  <path d="M70 332h160M560 336h200" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" opacity=".7"/>
+
+  <g transform="translate(-34 0)">
+  <!-- gölgeler -->
+  <g fill="#3A1A0C" opacity=".16">
+    <ellipse cx="250" cy="318" rx="56" ry="8"/><ellipse cx="440" cy="318" rx="110" ry="9"/><ellipse cx="626" cy="318" rx="66" ry="8"/><ellipse cx="730" cy="318" rx="30" ry="6"/>
+  </g>
+
+  <!-- dürüm (kâğıtta, dik) -->
+  <g transform="translate(250 0) rotate(-4 0 300)">
+    <path d="M-34 118c0-14 68-14 68 0" fill="#F1D9A8" stroke="#8A5A22" stroke-width="3.5"/>
+    <path d="M-28 116c4-16 18-24 30-22 12 1 24 8 26 22" fill="#8C4A22" stroke="#4A220C" stroke-width="3"/>
+    <path d="M-20 110c6-6 14-8 22-6M4 104c8 0 14 4 18 8" fill="none" stroke="#C97B45" stroke-width="3" stroke-linecap="round"/>
+    <path d="M-30 112c4-8 10-12 16-10 6-6 12-6 16-2" fill="#6DBE45" stroke="#2C6B2F" stroke-width="2.5"/>
+    <path d="M10 104a8 8 0 0 1 16 4" fill="#E2483A" stroke="#8E1B12" stroke-width="2.5"/>
+    <path d="M-38 122c0-6 76-6 76 0l-4 176c0 6-68 6-68 0z" fill="#F1D9A8" stroke="#1B1B1B" stroke-width="4" stroke-linejoin="round"/>
+    <path d="M-40 150l80-8v150c0 8-72 8-74 0z" fill="url(#kagit)" stroke="#1B1B1B" stroke-width="4" stroke-linejoin="round"/>
+    <path d="M-40 150l80-8" stroke="#D7263D" stroke-width="5" stroke-linecap="round"/>
+    <path d="M-28 166v110" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round" opacity=".9"/>
+    <use href="#mini-kayik" transform="translate(2 214) scale(.9)"/>
+  </g>
+
+  <!-- kraft paket -->
+  <path d="M528 112l26 14v178l-26 8z" fill="#B07C42" stroke="#1B1B1B" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M340 112h188v200H340z" fill="url(#kraft)" stroke="#1B1B1B" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M340 112l14-46h160l14 46z" fill="#C48A55" stroke="#1B1B1B" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M356 100h156" stroke="#9E6A33" stroke-width="3" stroke-linecap="round"/>
+  <path d="M354 128v170M514 128v170" stroke="#B9824A" stroke-width="2.5" stroke-dasharray="10 8"/>
+  <!-- adres etiketi -->
+  <g transform="translate(384 214) rotate(-2)">
+    <rect width="122" height="74" rx="8" fill="#FFFFFF" stroke="#D7263D" stroke-width="4"/>
+    <path d="M20 22c0-8 6-13 12-13s12 5 12 13c0 9-12 19-12 19S20 31 20 22z" fill="#D7263D"/>
+    <circle cx="32" cy="22" r="4.5" fill="#FFFFFF"/>
+    <g stroke="#B9B9B1" stroke-width="5" stroke-linecap="round"><path d="M54 18h50M54 32h38M18 52h86M18 64h60"/></g>
+  </g>
+  <!-- zımbalı sipariş fişi -->
+  <g transform="translate(372 52) rotate(4)">
+    <path d="M0 0h82v128l-7-6-7 6-7-6-7 6-7-6-7 6-7-6-7 6-7-6-7 6-6-6-6 6z" fill="#FFFEF8" stroke="#1B1B1B" stroke-width="3.5" stroke-linejoin="round"/>
+    <rect x="8" y="22" width="66" height="12" rx="2" fill="#D7263D"/>
+    <g stroke="#9A9A93" stroke-width="4" stroke-linecap="round"><path d="M12 48h46M12 62h56M12 76h40M12 90h52"/></g>
+    <path d="M12 106h58" stroke="#1B1B1B" stroke-width="2" stroke-dasharray="4 4"/>
+    <rect x="30" y="6" width="24" height="5" rx="2" fill="#7E807A"/>
+  </g>
+
+  <!-- kapaklı çorba kabı -->
+  <g transform="translate(626 0)">
+    <path d="M-58 236h116l-10 72c-1 6-6 8-12 8h-72c-6 0-11-2-12-8z" fill="#FFFFFF" stroke="#1B1B1B" stroke-width="4" stroke-linejoin="round"/>
+    <path d="M-52 252h104" stroke="#F0A04B" stroke-width="10" opacity=".5"/>
+    <path d="M-64 224c0-6 4-10 10-10h108c6 0 10 4 10 10v8c0 4-3 6-6 6H-58c-3 0-6-2-6-6z" fill="#0F6E64" stroke="#1B1B1B" stroke-width="4" stroke-linejoin="round"/>
+    <path d="M-48 222h70" stroke="#5FC2B5" stroke-width="3" stroke-linecap="round"/>
+    <rect x="-30" y="266" width="60" height="30" rx="6" fill="#D7263D"/>
+    <use href="#mini-kayik" transform="translate(0 281) scale(.85)"/>
+    <path d="M-12 204c-6-8 6-12 0-22M12 204c-6-8 6-12 0-22" fill="none" stroke="#B9B9B1" stroke-width="3.5" stroke-linecap="round"/>
+  </g>
+
+  <!-- ayran -->
+  <g transform="translate(730 0)">
+    <path d="M-24 236h48l-6 76h-36z" fill="#FFFFFF" stroke="#1B1B1B" stroke-width="4" stroke-linejoin="round"/>
+    <path d="M-26 232h52v8h-52z" fill="#E2F4F1" stroke="#1B1B1B" stroke-width="3.5" stroke-linejoin="round"/>
+    <path d="M-20 258c7 5 14 5 20 0s13-5 20 0" fill="none" stroke="#1B998B" stroke-width="3"/>
+    <path d="M6 232l10-30" stroke="#D7263D" stroke-width="5" stroke-linecap="round"/>
+  </g>
+  </g>
+</svg>

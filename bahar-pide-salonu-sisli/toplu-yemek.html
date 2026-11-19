@@ -1,0 +1,307 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Toplu yemek: ofis ve toplantılar | Bahar Pide Salonu</title>
+<meta name="description" content="Toplantı ve ekip yemekleri için kişi sayısına göre pide, döner ve çorba önerisi çıkarın, talebinizi WhatsApp'tan iletin.">
+<meta name="robots" content="noindex, nofollow">
+<meta name="theme-color" content="#D7263D">
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%23D7263D'/%3E%3Cpath d='M5 34C10 22 20 18 32 18s22 4 27 16c-5 12-15 15-27 15S10 46 5 34z' fill='%23F2C27C' stroke='%23fff' stroke-width='3.5'/%3E%3Cpath d='M15 33c5-5 29-5 34 0-5 5-29 5-34 0z' fill='%23A61B2F'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sofia+Sans+Condensed:wght@800&amp;family=Signika:wght@400;500;600;700&amp;display=swap">
+<link rel="stylesheet" href="assets/css/site.css">
+<script>document.documentElement.classList.add("js");</script>
+</head>
+<body class="sayfa-toplu-yemek">
+<a class="skip" href="#icerik">İçeriğe geç</a>
+<div class="preview" data-preview-note>Önizleme: Bu tasarım Bahar Pide Salonu için hazırlanmış bir örnektir.</div>
+<svg class="sprite" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false">
+  <defs>
+    <linearGradient id="kabukRenk" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#F4C887"/><stop offset=".5" stop-color="#D99A4E"/><stop offset="1" stop-color="#A86A2B"/>
+    </linearGradient>
+  </defs>
+  <symbol id="kabuk" viewBox="0 0 200 100" preserveAspectRatio="none">
+    <path d="M2,52 C12,30 32,10 60,7 C84,4 116,4 140,7 C168,10 188,30 198,48 C188,70 168,90 140,93 C116,96 84,96 60,93 C32,90 12,72 2,52 Z" fill="none" stroke="url(#kabukRenk)" stroke-width="13" stroke-linejoin="round" vector-effect="non-scaling-stroke"/>
+    <path d="M2,52 C12,30 32,10 60,7 C84,4 116,4 140,7 C168,10 188,30 198,48 C188,70 168,90 140,93 C116,96 84,96 60,93 C32,90 12,72 2,52 Z" fill="none" stroke="#7A4517" stroke-opacity=".55" stroke-width="3.5" stroke-dasharray="2 11 6 17 3 24 4 9" stroke-linecap="round" vector-effect="non-scaling-stroke"/>
+    <path d="M2,52 C12,30 32,10 60,7 C84,4 116,4 140,7 C168,10 188,30 198,48 C188,70 168,90 140,93 C116,96 84,96 60,93 C32,90 12,72 2,52 Z" fill="none" stroke="#FFF1D6" stroke-opacity=".55" stroke-width="1.6" stroke-dasharray="30 18 50 22" vector-effect="non-scaling-stroke"/>
+  </symbol>
+  <symbol id="i-pide" viewBox="0 0 32 32"><g transform="rotate(-32 16 16)"><path d="M1.5 16c3.5-5.4 8.5-8.2 14.5-8.2S27 10.6 30.5 16c-3.5 4.8-8.5 7.2-14.5 7.2S5 20.8 1.5 16z"/><path d="M10.5 9.2v13.2M16 7.8v15.4M21.5 9.2v13.2"/><path d="M1.5 16 0 13.6M30.5 16l1.5 2.4"/></g></symbol>
+  <symbol id="i-doner" viewBox="0 0 32 32"><path d="M16 2v28"/><path d="M9.5 6.5h13l-3.2 18h-6.6z"/><path d="M10.6 11h10.8M11.4 15.5h9.2M12.2 20h7.6"/><path d="M6 29h20"/></symbol>
+  <symbol id="i-corba" viewBox="0 0 32 32"><path d="M4 15h24c0 6.6-5.4 11-12 11S4 21.6 4 15z"/><path d="M11 26.5h10"/><path d="M11 11.5c-1.4-1.6 1.2-2.8 0-4.8M16 11.5c-1.4-1.6 1.2-2.8 0-4.8M21 11.5c-1.4-1.6 1.2-2.8 0-4.8"/></symbol>
+  <symbol id="i-ayran" viewBox="0 0 32 32"><path d="M9 5h14l-2 23h-10z"/><path d="M9.6 11.5c2.2 1.2 4.4 1.2 6.4 0s4.2-1.2 6.4 0"/></symbol>
+  <symbol id="i-tel" viewBox="0 0 32 32"><path d="M9.5 3.5 5.6 4.6C4.3 5 3.4 6.3 3.6 7.7c1.4 10.6 9.9 19.3 20.6 20.7 1.4.2 2.7-.7 3.1-2l1.1-3.9-6.2-3.1-3 2.6c-3.8-1.8-6.7-4.7-8.5-8.5l2.6-3z"/></symbol>
+  <symbol id="i-wa" viewBox="0 0 32 32"><path d="M16 3.5C9 3.5 3.5 8.8 3.5 15.4c0 2.5.8 4.8 2.2 6.7L4.4 28l6-1.6c1.7.8 3.6 1.3 5.6 1.3 7 0 12.5-5.4 12.5-12.2S23 3.5 16 3.5z"/><path d="M11.5 13.5h9M11.5 18h6"/></symbol>
+  <symbol id="i-saat" viewBox="0 0 32 32"><circle cx="16" cy="16" r="12.5"/><path d="M16 8.5V16l5 3"/></symbol>
+  <symbol id="i-pin" viewBox="0 0 32 32"><path d="M16 29s-9.5-9.1-9.5-16a9.5 9.5 0 0 1 19 0c0 6.9-9.5 16-9.5 16z"/><circle cx="16" cy="13" r="3.4"/></symbol>
+  <symbol id="i-insta" viewBox="0 0 32 32"><rect x="4" y="4" width="24" height="24" rx="7"/><circle cx="16" cy="16" r="5.5"/><circle cx="23" cy="9" r="1" fill="currentColor"/></symbol>
+  <symbol id="i-fis" viewBox="0 0 32 32"><path d="M7 3h18v26l-3-2.2-3 2.2-3-2.2-3 2.2-3-2.2L7 29z"/><path d="M11 9h10M11 13.5h10M11 18h6"/></symbol>
+  <symbol id="i-kopya" viewBox="0 0 32 32"><rect x="10" y="10" width="17" height="18" rx="2.5"/><path d="M22 6.5V5.5A2.5 2.5 0 0 0 19.5 3h-12A2.5 2.5 0 0 0 5 5.5v13A2.5 2.5 0 0 0 7.5 21h1"/></symbol>
+  <symbol id="i-yol" viewBox="0 0 32 32"><path d="M16 29V13"/><path d="M6 6h17l4 4-4 4H6z"/><path d="M11 29h10"/></symbol>
+  <symbol id="i-tepsi" viewBox="0 0 32 32"><path d="M2 21.5h28l-2.5 5h-23z"/><path d="M3.5 17.5c1.7-2.8 3.8-4.2 6.5-4.2s4.8 1.4 6.5 4.2c-1.7 2.3-3.8 3.4-6.5 3.4s-4.8-1.1-6.5-3.4z"/><path d="M15.5 14.5c1.7-2.8 3.8-4.2 6.5-4.2s4.8 1.4 6.5 4.2c-1.7 2.3-3.8 3.4-6.5 3.4"/></symbol>
+  <symbol id="i-kurek" viewBox="0 0 32 32"><rect x="1.5" y="9" width="14" height="14" rx="4"/><path d="M15.5 16H30.5"/><path d="M5 13.5h7M5 18.5h7"/></symbol>
+  <symbol id="i-kisi" viewBox="0 0 32 32"><circle cx="11" cy="10" r="4"/><circle cx="22" cy="11.5" r="3.2"/><path d="M3.5 26c.6-5.2 3.4-8 7.5-8s6.9 2.8 7.5 8M17.5 19.8c1.2-1.2 2.7-1.8 4.5-1.8 3.4 0 5.6 2.4 6 6.6"/></symbol>
+  <symbol id="i-takvim" viewBox="0 0 32 32"><rect x="4" y="6" width="24" height="22" rx="3"/><path d="M4 12.5h24M10 3.5v5M22 3.5v5"/><path d="M10 18h3M15 18h3M20 18h3M10 23h3M15 23h3"/></symbol>
+  <symbol id="i-mesaj" viewBox="0 0 32 32"><path d="M4 6h24v16H13l-6 5v-5H4z"/><path d="M9 12h14M9 16.5h9"/></symbol>
+</svg>
+<header class="top">
+  <div class="w top-in">
+    <a class="tabela" href="index.html" aria-label="Bahar Pide Salonu, ana sayfa">
+      <span class="tabela-ad">BAHAR</span>
+      <span class="tabela-alt">PİDE SALONU</span>
+    </a>
+    <button class="menu-btn" type="button" aria-expanded="false" aria-controls="gezinme"><span class="burger" aria-hidden="true"></span>Sayfalar</button>
+    <nav id="gezinme" class="nav" aria-label="Ana gezinme">
+      <ul>
+        <li><a href="index.html">Ana sayfa</a></li>
+        <li><a href="menu.html">Menü</a></li>
+        <li><a href="paket-siparis.html">Paket sipariş <b class="say-rozet" data-fis-count hidden>0</b></a></li>
+        <li><a href="toplu-yemek.html" aria-current="page">Toplu yemek</a></li>
+        <li><a href="iletisim.html">İletişim</a></li>
+      </ul>
+      <div class="nav-iletisim">
+        <a class="btn btn-red btn-kucuk" href="tel:+905526694076"><svg class="ik" aria-hidden="true"><use href="#i-tel"/></svg>Ara</a>
+        <a class="btn btn-wa btn-kucuk" href="https://wa.me/905526694076?text=Merhaba%20Bahar%20Pide%20Salonu%2C%20bilgi%20almak%20istiyorum." target="_blank" rel="noopener"><svg class="ik" aria-hidden="true"><use href="#i-wa"/></svg>WhatsApp</a>
+      </div>
+    </nav>
+    <a class="btn btn-red btn-kucuk top-tel" href="tel:+905526694076"><svg class="ik" aria-hidden="true"><use href="#i-tel"/></svg>0552 669 40 76</a>
+  </div>
+  <div class="karo" aria-hidden="true"></div>
+</header>
+<main id="icerik">
+
+<section class="sayfa-bas tepsi-bas" aria-labelledby="h1">
+  <div class="w sayfa-bas-in">
+    <div>
+      <h1 id="h1">Toplantıya, ekibe, ofise: toplu yemek talebi</h1>
+      <p class="giris">Kişi sayısını girin; pide, döner ve çorba için kaba bir liste önerelim. Tarihi ve saati ekleyin, talebiniz WhatsApp mesajı olarak hazırlansın. Uygunluğu ve ayrıntıları birlikte netleştiririz.</p>
+      <div class="dugme-sira">
+        <a class="btn btn-red" href="#planla"><svg class="ik" aria-hidden="true"><use href="#i-kisi"/></svg>Planlamaya başla</a>
+        <a class="btn" href="tel:+905526694076"><svg class="ik" aria-hidden="true"><use href="#i-tel"/></svg>0552 669 40 76</a>
+      </div>
+    </div>
+    <svg class="tepsi-svg" viewBox="0 0 540 360" role="img" aria-label="Dilimlenmiş pidelerle dolu bir tepsi, yanında çorba kâsesi ve ayran bardağı çizimi">
+      <defs>
+        <path id="tp-kabuk" d="M2 32C10 16 26 6 52 3c22-3 42-3 64 0 26 3 42 13 50 28-8 16-24 26-50 29-22 3-42 3-64 0C26 57 10 47 2 32z" fill="#E9B76E" stroke="#B87631" stroke-width="4"/>
+        <path id="tp-ic" d="M22 32c14-12 36-17 62-17s48 5 62 17c-14 12-36 17-62 17s-48-5-62-17z"/>
+        <path id="tp-dilim" d="M52 7v50M84 4v56M116 7v50" fill="none" stroke="#B87631" stroke-width="3" stroke-linecap="round"/>
+        <g id="tp-kiyma"><use href="#tp-kabuk"/><use href="#tp-ic" fill="#B5432A"/><g fill="#7A2A12"><circle cx="50" cy="30" r="3"/><circle cx="76" cy="38" r="3"/><circle cx="104" cy="28" r="3"/><circle cx="128" cy="35" r="3"/></g><use href="#tp-dilim"/></g>
+        <g id="tp-kasar"><use href="#tp-kabuk"/><use href="#tp-ic" fill="#F6D77A"/><g fill="#E0A54A"><ellipse cx="54" cy="30" rx="6" ry="3"/><ellipse cx="96" cy="36" rx="7" ry="3"/><ellipse cx="124" cy="29" rx="5" ry="3"/></g><use href="#tp-dilim"/></g>
+        <g id="tp-kusbasi"><use href="#tp-kabuk"/><use href="#tp-ic" fill="#9A4326"/><g fill="#5A220F"><rect x="44" y="27" width="7" height="6" rx="1.5"/><rect x="70" y="34" width="7" height="6" rx="1.5"/><rect x="100" y="26" width="7" height="6" rx="1.5"/></g><g fill="#3E8E41"><rect x="60" y="29" width="8" height="3" rx="1.5"/><rect x="118" y="34" width="8" height="3" rx="1.5"/></g><use href="#tp-dilim"/></g>
+      </defs>
+      <ellipse cx="270" cy="334" rx="236" ry="14" fill="#000" opacity=".08"/>
+      <rect x="20" y="36" width="500" height="276" rx="40" fill="#CFD1CC" stroke="#8E918B" stroke-width="5"/>
+      <rect x="40" y="56" width="460" height="236" rx="26" fill="#ECEDEA"/>
+      <g transform="translate(52 82) scale(.8) rotate(-4 84 32)"><use href="#tp-kiyma"/></g>
+      <g transform="translate(198 76) scale(.8) rotate(3 84 32)"><use href="#tp-kasar"/></g>
+      <g transform="translate(344 84) scale(.8) rotate(-2 84 32)"><use href="#tp-kusbasi"/></g>
+      <g transform="translate(56 176) scale(.8) rotate(3 84 32)"><use href="#tp-kasar"/></g>
+      <g transform="translate(202 182) scale(.8) rotate(-3 84 32)"><use href="#tp-kusbasi"/></g>
+      <g transform="translate(346 174) scale(.8) rotate(4 84 32)"><use href="#tp-kiyma"/></g>
+      <g transform="translate(96 296)">
+        <path d="M-58 0h116c0 34-26 52-58 52S-58 34-58 0z" fill="#fff" stroke="#1B1B1B" stroke-width="4"/>
+        <ellipse cx="0" cy="0" rx="58" ry="13" fill="#F0A04B" stroke="#1B1B1B" stroke-width="4"/>
+        <path d="M-12 -16c-6-8 6-12 0-22M10 -16c-6-8 6-12 0-22" fill="none" stroke="#9A9A93" stroke-width="3" stroke-linecap="round"/>
+        <path d="M-40 26h80" stroke="#D7263D" stroke-width="4"/>
+      </g>
+      <g transform="translate(470 262)">
+        <path d="M-26 -52h52l-7 100h-38z" fill="#fff" stroke="#1B1B1B" stroke-width="4"/>
+        <path d="M-24 -36c8 5 16 5 24 0s16-5 24 0" fill="none" stroke="#1B998B" stroke-width="3"/>
+      </g>
+    </svg>
+  </div>
+  <div class="karo" aria-hidden="true"></div>
+</section>
+
+<section class="bolum" id="planla" aria-labelledby="planla-b">
+  <div class="w">
+    <div class="bolum-ust">
+      <h2 id="planla-b">Planlayıcı ve talep fişi</h2>
+      <p>Kişi başı bir ana yemek varsayımıyla çalışan kaba bir hesap. İştaha, saate ve menü tercihine göre değişir; kesin miktarı birlikte konuşuruz.</p>
+    </div>
+    <div class="toplu-duzen" data-tool="toplu-talep" data-toplu>
+      <div>
+        <div class="planla">
+          <div class="planla-bas"><span>1</span><h3>Kaç kişisiniz?</h3></div>
+          <div class="bilgiler-iki">
+            <div class="alan"><span id="kisi-l">Kişi sayısı</span><span class="adim" data-sayi><button type="button" data-art="-1" aria-label="Kişi sayısını azalt">−</button><input type="number" name="kisi" min="0" max="300" value="10" inputmode="numeric" aria-labelledby="kisi-l"><button type="button" data-art="1" aria-label="Kişi sayısını artır">+</button></span></div>
+            <div class="alan"><span id="etsiz-l">Bunlardan etsiz isteyen</span><span class="adim" data-sayi><button type="button" data-art="-1" aria-label="Etsiz kişi sayısını azalt">−</button><input type="number" name="etsiz" min="0" max="300" value="0" inputmode="numeric" aria-labelledby="etsiz-l"><button type="button" data-art="1" aria-label="Etsiz kişi sayısını artır">+</button></span></div>
+          </div>
+          <fieldset class="alan">
+            <legend>Ağırlık</legend>
+            <div class="cipler">
+              <label class="cip"><input type="radio" name="agirlik" value="pide"><span>Pide ağırlıklı</span></label>
+              <label class="cip"><input type="radio" name="agirlik" value="dengeli" checked><span>Yarı yarıya</span></label>
+              <label class="cip"><input type="radio" name="agirlik" value="doner"><span>Döner ağırlıklı</span></label>
+            </div>
+          </fieldset>
+          <fieldset class="alan">
+            <legend>Ekler</legend>
+            <div class="cipler">
+              <label class="cip"><input type="checkbox" name="lahmacun"><span>Lahmacun da olsun</span></label>
+              <label class="cip"><input type="checkbox" name="corba" checked><span>Herkese çorba</span></label>
+              <label class="cip"><input type="checkbox" name="ayran" checked><span>Herkese ayran</span></label>
+            </div>
+          </fieldset>
+          <div class="oneri-kutu">
+            <h4>Önerilen liste</h4>
+            <ul class="oneri" data-oneri aria-live="polite"><li class="oneri-bos">Kişi sayısını girin, liste burada çıksın.</li></ul>
+          </div>
+        </div>
+
+        <div class="planla">
+          <div class="planla-bas"><span>2</span><h3>Etkinlik bilgileri</h3></div>
+          <fieldset class="alan">
+            <legend>Ne için?</legend>
+            <div class="cipler">
+              <label class="cip"><input type="radio" name="tur" value="Ofis öğle yemeği" checked><span>Ofis öğle yemeği</span></label>
+              <label class="cip"><input type="radio" name="tur" value="Toplantı ikramı"><span>Toplantı ikramı</span></label>
+              <label class="cip"><input type="radio" name="tur" value="Ekip yemeği"><span>Ekip yemeği</span></label>
+              <label class="cip"><input type="radio" name="tur" value="Eğitim ya da seminer arası"><span>Eğitim arası</span></label>
+              <label class="cip"><input type="radio" name="tur" value="Diğer (nota yazdım)"><span>Başka</span></label>
+            </div>
+          </fieldset>
+          <div class="bilgiler-iki">
+            <label class="alan"><span>Tarih</span><input type="date" name="tarih"></label>
+            <label class="alan"><span>Saat</span>
+              <select name="saat">
+                <option value="">Saat seçmedim</option>
+                <option>09:00 civarı</option>
+                <option>10:00 civarı</option>
+                <option>11:00 civarı</option>
+                <option>12:00 civarı</option>
+                <option>12:30 civarı</option>
+                <option>13:00 civarı</option>
+                <option>14:00 civarı</option>
+                <option>15:00 civarı</option>
+                <option>16:00 civarı</option>
+                <option>17:00 civarı</option>
+                <option>18:00 civarı</option>
+              </select>
+            </label>
+          </div>
+          <p class="uyari" data-tarih-not role="status"></p>
+          <fieldset class="alan">
+            <legend>Nasıl alacaksınız?</legend>
+            <div class="cipler">
+              <label class="cip"><input type="radio" name="teslim" value="Gelip alacağız" data-alan="Alma şekli" checked><span>Gelip alacağız</span></label>
+              <label class="cip"><input type="radio" name="teslim" value="Adrese getirilmesini rica ediyoruz, uygunluğunu yazar mısınız?" data-alan="Alma şekli"><span>Adrese getirilsin</span></label>
+            </div>
+          </fieldset>
+          <div class="bilgiler-iki">
+            <label class="alan"><span>Firma / kurum</span><input type="text" data-alan="Firma / kurum" autocomplete="organization"></label>
+            <label class="alan"><span>Adınız</span><input type="text" data-alan="Ad" autocomplete="name"></label>
+          </div>
+          <label class="alan"><span>Adres ya da not</span><textarea data-alan="Not" rows="3" placeholder="Adres, hassasiyetler, acı tercihi, servis malzemesi ihtiyacı"></textarea></label>
+        </div>
+      </div>
+
+      <div class="toplu-sag">
+        <div class="planla-bas"><span>3</span><h3>Talep fişi</h3></div>
+        <div class="fis">
+          <div class="fis-bas"><b>BAHAR PİDE SALONU</b><span>Toplu yemek talebi</span><span data-tarih-bugun>bugün</span></div>
+          <pre class="fis-metin bos" data-mesaj aria-live="polite">Kişi sayısını girdiğinizde talep mesajınız burada yazılır.</pre>
+        </div>
+        <div class="fis-dugmeler">
+          <a class="btn btn-wa" data-wa href="https://wa.me/905526694076" target="_blank" rel="noopener"><svg class="ik" aria-hidden="true"><use href="#i-wa"/></svg>WhatsApp'tan gönder</a>
+          <button class="btn btn-kucuk" type="button" data-kopya><svg class="ik" aria-hidden="true"><use href="#i-kopya"/></svg>Kopyala</button>
+          <a class="btn btn-kucuk" href="tel:+905526694076"><svg class="ik" aria-hidden="true"><use href="#i-tel"/></svg>Ara</a>
+        </div>
+        <p class="uyari" data-uyari role="status"></p>
+        <p class="ara-not">Talep mesajı bir ön bilgidir; uygunluk, menü ve tutar konuşulduktan sonra kesinleşir.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="bolum akis" aria-labelledby="kontrol-b">
+  <div class="w">
+    <div class="bolum-ust">
+      <h2 id="kontrol-b">Toplu siparişten önce sekiz soru</h2>
+      <p>Toplantı ya da ekip yemeği planlarken en çok unutulanlar. İşaretledikçe üstü çizilir; listenin hepsi talep mesajınızın not kısmına yazılabilir.</p>
+    </div>
+    <ul class="kontrol">
+      <li><label><input type="checkbox"><span><b>Kişi sayısı kesin mi?</b>Son katılım sayısını netleştirin; birkaç kişilik pay bırakmak isteyebilirsiniz.</span></label></li>
+      <li><label><input type="checkbox"><span><b>Etsiz ya da hassasiyeti olan var mı?</b>Sayısını ve hassasiyeti (gluten, süt, yumurta) yazın.</span></label></li>
+      <li><label><input type="checkbox"><span><b>Acı tercihi</b>Acıyı ayrı istemek kalabalık masada herkesin işine gelir.</span></label></li>
+      <li><label><input type="checkbox"><span><b>Kesim</b>Pidelerin dilimli kesilmesini isteyin; toplantı masasında elle alınır.</span></label></li>
+      <li><label><input type="checkbox"><span><b>Saat</b>Toplantının başlangıcını değil, yemeğin masada olması gereken saati yazın.</span></label></li>
+      <li><label><input type="checkbox"><span><b>Adres ve giriş</b>Bina, kat, resepsiyon ya da güvenlik notunu ekleyin.</span></label></li>
+      <li><label><input type="checkbox"><span><b>Servis malzemesi</b>Peçete, çatal-bıçak ya da tabak ihtiyacınızı belirtin.</span></label></li>
+      <li><label><input type="checkbox"><span><b>Ödeme ve fatura</b>Ödeme şeklini ve fatura bilgilerini önceden sorun.</span></label></li>
+    </ul>
+  </div>
+</section>
+
+<section class="bolum" aria-labelledby="masa-b">
+  <div class="w ipucu-izgara">
+    <div>
+      <h2 id="masa-b">Toplantı masasında pide</h2>
+      <p class="okuma">Pide, ortaya konup paylaşılmak için yapılmış bir yemektir. Kalabalık bir masada işinizi kolaylaştıracak birkaç alışkanlık:</p>
+      <ul class="ipucu-liste okuma">
+        <li>Kaşarlı ve karışık pideler sıcakken daha keyifli yenir; yemeği toplantı arasına denk getirin.</li>
+        <li>Çeşitleri karıştırın: herkes birkaç dilimle farklı tatlara bakabilir.</li>
+        <li>Dilimli pide tabak gerektirmez; peçete çoğu zaman yeterlidir.</li>
+        <li>Lahmacun ortaya konduğunda maydanoz ve limonla dürüm yapılarak paylaşılır.</li>
+        <li>Çorba isterseniz kapaklı kap ve kaşık ihtiyacını mesajda belirtin.</li>
+        <li>Etsiz yiyecek kişilerin pidelerini ayrı paketlemeyi rica edin; karışmasın.</li>
+      </ul>
+    </div>
+    <figure class="kayik">
+      <div class="kayik-cer">
+        <div class="kayik-ic"><img src="img/pide-tabak.jpg" srcset="img/pide-tabak-sm.jpg 900w, img/pide-tabak.jpg 1024w" sizes="(min-width: 800px) 520px, 94vw" width="1024" height="601" loading="lazy" alt="Tabaklarda dilimlenmiş kaşarlı ve kıymalı pideler"></div>
+        <svg class="kayik-kabuk" aria-hidden="true"><use href="#kabuk" width="100%" height="100%"/></svg>
+      </div>
+      <figcaption class="kayik-not"><span class="temsili">Temsili görsel</span>Fotoğraf: jorge.cancela, CC BY 2.0</figcaption>
+    </figure>
+  </div>
+</section>
+
+<section class="bolum akis" aria-labelledby="sss-b">
+  <div class="w sss">
+    <h2 id="sss-b">Toplu yemekte merak edilenler</h2>
+    <details><summary>Kaç kişiye kadar yemek hazırlanabilir?</summary><p>Kişi sayısını, tarihi ve saati yazın; uygunluğu size bildirelim.</p></details>
+    <details><summary>Ne kadar önceden yazmalıyız?</summary><p>Ne kadar erken yazarsanız planlaması o kadar kolay olur; özellikle öğle saatlerine denk gelen talepler için.</p></details>
+    <details><summary>Planlayıcının önerdiği liste kesin mi?</summary><p>Hayır. Kişi başı bir ana yemek varsayımıyla çıkarılan kaba bir öneridir; menü ve miktar birlikte netleşir.</p></details>
+    <details><summary>Pazar günü toplu yemek alabilir miyiz?</summary><p>Pazar günleri kapalıyız. Pazartesi'den Cumartesi'ye 08:00–21:00 arası için talep iletebilirsiniz.</p></details>
+    <details><summary>Menüde olmayan bir şey isteyebilir miyiz?</summary><p>Not kısmına yazın; yapılabilirse size bilgi verelim.</p></details>
+  </div>
+</section>
+
+</main>
+<footer class="alt">
+  <div class="karo" aria-hidden="true"></div>
+  <div class="w alt-in">
+    <div>
+      <a class="tabela" href="index.html" aria-label="Bahar Pide Salonu, ana sayfa"><span class="tabela-ad">BAHAR</span><span class="tabela-alt">PİDE SALONU</span></a>
+      <address>Mecidiyeköy Mahallesi, Fulya Sk. Erse Han D:3/5, 34394 Şişli/İstanbul</address>
+      <a class="alt-link" href="tel:+905526694076"><svg class="ik" aria-hidden="true"><use href="#i-tel"/></svg>0552 669 40 76</a><br>
+      <a class="alt-link" href="https://wa.me/905526694076?text=Merhaba%20Bahar%20Pide%20Salonu%2C%20bilgi%20almak%20istiyorum." target="_blank" rel="noopener"><svg class="ik" aria-hidden="true"><use href="#i-wa"/></svg>WhatsApp'tan yazın</a><br>
+      <a class="alt-link" href="https://instagram.com/baharpidesalonuu" target="_blank" rel="noopener"><svg class="ik" aria-hidden="true"><use href="#i-insta"/></svg>@baharpidesalonuu</a>
+    </div>
+    <div>
+      <h2>Çalışma saatleri</h2>
+      <p>Pazartesi–Cumartesi 08:00–21:00, Pazar kapalı.</p>
+      <p class="durum" data-status>Pazartesi–Cumartesi 08:00–21:00</p>
+      <p><a class="alt-link" href="https://search.google.com/local/reviews?placeid=ChIJ4455AtywyhQRh-jPlkQLw-8" target="_blank" rel="noopener">Google'da 4,4 puan · 550 yorum</a></p>
+    </div>
+    <nav class="alt-nav" aria-label="Alt gezinme">
+      <h2>Sayfalar</h2>
+      <ul><li><a href="index.html">Ana sayfa</a></li><li><a href="menu.html">Menü</a></li><li><a href="paket-siparis.html">Paket sipariş</a></li><li><a href="toplu-yemek.html">Toplu yemek</a></li><li><a href="iletisim.html">İletişim</a></li></ul>
+    </nav>
+  </div>
+  <div class="w alt-dip">
+    <p>Sitedeki fotoğraflar temsilidir. Menüdeki kalemler pide, döner ve çorba salonlarında tipik olan örneklerdir; güncel menü ve fiyat bilgisi için arayın ya da WhatsApp'tan yazın.</p>
+    <p>Google kategorileri: Dönerci, Pideci, Çorbacı.</p>
+  </div>
+</footer>
+<nav class="altbar" aria-label="Hızlı iletişim">
+  <a class="ab ab-tel" href="tel:+905526694076"><svg class="ik" aria-hidden="true"><use href="#i-tel"/></svg>Ara</a>
+  <a class="ab ab-wa" href="https://wa.me/905526694076?text=Merhaba%20Bahar%20Pide%20Salonu%2C%20bilgi%20almak%20istiyorum." target="_blank" rel="noopener"><svg class="ik" aria-hidden="true"><use href="#i-wa"/></svg>WhatsApp</a>
+  <a class="ab ab-fis" href="paket-siparis.html#fis"><svg class="ik" aria-hidden="true"><use href="#i-fis"/></svg>Fiş<b class="say-rozet" data-fis-count hidden>0</b></a>
+</nav>
+<script src="assets/js/site.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,262 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Toplu sipariş hesaplayıcı: kaç kişiye kaç simit? | Bakaç Taş Fırın Simit</title>
+<meta name="description" content="Kişi sayısını girin; simit, poğaça, açma ve börek için önerilen adetleri görün, tarih ve saati ekleyip siparişinizi WhatsApp mesajı olarak Bakaç Taş Fırın Simit'e gönderin.">
+<meta name="robots" content="noindex, nofollow">
+<meta name="theme-color" content="#1A0F0A">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Crect width='40' height='40' rx='9' fill='%232A1A14'/%3E%3Cpath d='M6 40V22a14 14 0 0 1 28 0v18z' fill='%237A3B22'/%3E%3Cpath d='M10 40V22a10 10 0 0 1 20 0v18z' fill='%23E07A2F'/%3E%3Ccircle cx='20' cy='24' r='5.5' fill='none' stroke='%23FBEBD0' stroke-width='4'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,400;0,500;0,700;0,800;1,400&amp;family=Paytone+One&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/site.css">
+<script>document.documentElement.className += " js";</script>
+</head>
+<body class="s-toplu-siparis">
+<div class="onizleme" data-preview-note>Önizleme: Bu tasarım Bakaç Taş Fırın Simit için hazırlanmış bir örnektir.</div>
+<a class="atla" href="#icerik">İçeriğe geçin</a>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><defs>
+<symbol id="s-tel" viewBox="0 0 24 24"><path d="M8.200 3.500 5.400 4.200C4 9.800 9.300 18.900 15 20.400l2.300-1.900-1.300-3.600-3 .7c-1.500-1-2.900-3.300-3.100-5.300l2.300-2z"/></symbol>
+<symbol id="s-wa" viewBox="0 0 24 24"><path d="M12 3.500a8.500 8.500 0 0 0-7.300 12.800L3.500 20.500l4.400-1.100A8.500 8.500 0 1 0 12 3.500z"/><path d="M9 8.800c0 3.200 2.600 5.900 5.900 6.100"/></symbol>
+<symbol id="s-yol" viewBox="0 0 24 24"><path d="M12 21.500s7-6.400 7-12a7 7 0 0 0-14 0c0 5.600 7 12 7 12z"/><circle cx="12" cy="9.500" r="2.600"/></symbol>
+<symbol id="s-kopya" viewBox="0 0 24 24"><path d="M8.500 8.500h11v12h-11z"/><path d="M5 15.500v-12h10"/></symbol>
+<symbol id="s-ok" viewBox="0 0 24 24"><path d="M4.500 12.500l5 5 10-11"/></symbol>
+</defs></svg>
+<header class="ust">
+  <div class="sar ust-ic">
+    <a class="marka" href="index.html" aria-label="Bakaç Taş Fırın Simit, ana sayfa">
+      <span class="marka-kemer" aria-hidden="true"></span>
+      <span class="marka-yazi"><b>Bakaç</b><small>Taş Fırın Simit</small></span>
+    </a>
+    <button class="menu-dugme" type="button" aria-expanded="false" aria-controls="menu" data-menu-dugme><span class="menu-halka" aria-hidden="true"></span><span data-menu-yazi>Menü</span></button>
+    <nav class="menu" id="menu" aria-label="Sayfalar">
+      <ul>
+        <li><a href="index.html">Ana sayfa</a></li>
+        <li><a href="urunler.html">Ürünler</a></li>
+        <li><a href="toplu-siparis.html" aria-current="page">Toplu sipariş</a></li>
+        <li><a href="tas-firin.html">Taş fırın</a></li>
+        <li><a href="iletisim.html">İletişim</a></li>
+      </ul>
+      <a class="menu-ara" href="tel:+905321361804"><svg class="ikon" aria-hidden="true" focusable="false"><use href="#s-tel"/></svg><span>0532 136 18 04</span></a>
+    </nav>
+  </div>
+</header>
+<main id="icerik">
+<section class="sayfa-bas sayfa-bas--dar">
+  <div class="sar">
+    <img class="bas-simit" src="img/simit.svg" alt="" width="400" height="400" aria-hidden="true">
+    <h1>Kaç kişiye kaç simit?</h1>
+    <p class="giris-ozet">Kişi sayısını girin, hesaplayıcı adedi çıkarsın ve çeşitlere bölsün. Tarihi, saati ekleyin; siparişiniz WhatsApp mesajı olarak hazır.</p>
+    <p class="not-kutu">Bu araç yalnızca toplama, çarpma yapar; fiyat hesaplamaz. Sipariş, fırın mesajınızı onayladığında kesinleşir.</p>
+  </div>
+</section>
+
+<section class="bolum hesap-bolum">
+  <div class="sar">
+    <div class="hesap" data-tool="toplu-siparis" data-hesap>
+      <div class="hesap-sol">
+        <fieldset class="adim">
+          <legend><span class="adim-halka" aria-hidden="true"></span>Kaç kişisiniz?</legend>
+          <div class="sayac sayac--buyuk">
+            <button type="button" data-kisi-az aria-label="Kişi sayısını azaltın">−</button>
+            <input id="kisi" type="number" inputmode="numeric" min="1" max="500" value="20" aria-label="Kişi sayısı" data-kisi>
+            <button type="button" data-kisi-cok aria-label="Kişi sayısını artırın">+</button>
+          </div>
+          <input class="kaydirac" type="range" min="1" max="200" value="20" aria-label="Kişi sayısı kaydıracı" data-kisi-kaydir>
+          <div class="cipler" role="group" aria-label="Hazır kişi sayıları">
+            <button type="button" class="cip" data-kisi-hazir="10">10</button>
+            <button type="button" class="cip" data-kisi-hazir="25">25</button>
+            <button type="button" class="cip" data-kisi-hazir="50">50</button>
+            <button type="button" class="cip" data-kisi-hazir="100">100</button>
+          </div>
+        </fieldset>
+
+        <fieldset class="adim">
+          <legend><span class="adim-halka" aria-hidden="true"></span>Ne için?</legend>
+          <div class="cipler" role="group" aria-label="Sipariş nedeni">
+            <button type="button" class="cip" data-neden="Ofis kahvaltısı" data-pay="2" aria-pressed="true">Ofis kahvaltısı</button>
+            <button type="button" class="cip" data-neden="Toplantı arası" data-pay="1" aria-pressed="false">Toplantı arası</button>
+            <button type="button" class="cip" data-neden="Okul ya da sınıf etkinliği" data-pay="1" aria-pressed="false">Okul, sınıf</button>
+            <button type="button" class="cip" data-neden="Misafir, çay saati" data-pay="1.5" aria-pressed="false">Misafir, çay saati</button>
+            <button type="button" class="cip" data-neden="Yolluk, gezi" data-pay="2" aria-pressed="false">Yolluk, gezi</button>
+            <button type="button" class="cip" data-neden="Hayır, dağıtım" data-pay="1" aria-pressed="false">Hayır, dağıtım</button>
+          </div>
+          <p class="alan-etiket" id="pay-etiket">Kişi başı kaç parça?</p>
+          <div class="cipler cipler--pay" role="group" aria-labelledby="pay-etiket">
+            <button type="button" class="cip" data-pay-sec="1" aria-pressed="false"><b>1</b> atıştırmalık</button>
+            <button type="button" class="cip" data-pay-sec="1.5" aria-pressed="false"><b>1,5</b> çay yanı</button>
+            <button type="button" class="cip" data-pay-sec="2" aria-pressed="true"><b>2</b> kahvaltı</button>
+            <button type="button" class="cip" data-pay-sec="3" aria-pressed="false"><b>3</b> doyurucu</button>
+          </div>
+          <p class="ara-sonuc" data-ara-sonuc aria-hidden="true"></p>
+        </fieldset>
+
+        <fieldset class="adim">
+          <legend><span class="adim-halka" aria-hidden="true"></span>Hangi çeşitler olsun?</legend>
+          <div class="cesitler">
+            <label class="cesit"><input type="checkbox" data-cesit="simit" checked><span class="cesit-kutu"><img src="img/simit.svg" alt="" width="400" height="400">Simit</span></label>
+            <label class="cesit"><input type="checkbox" data-cesit="pogaca" checked><span class="cesit-kutu"><img src="img/pogaca.svg" alt="" width="200" height="200">Poğaça</span></label>
+            <label class="cesit"><input type="checkbox" data-cesit="acma" checked><span class="cesit-kutu"><img src="img/acma.svg" alt="" width="200" height="200">Açma</span></label>
+            <label class="cesit"><input type="checkbox" data-cesit="borek"><span class="cesit-kutu"><img src="img/borek.svg" alt="" width="200" height="200">Börek</span></label>
+          </div>
+          <div class="cipler" role="group" aria-label="Dağılım">
+            <button type="button" class="cip" data-dagilim="simit" aria-pressed="true">Simit ağırlıklı</button>
+            <button type="button" class="cip" data-dagilim="esit" aria-pressed="false">Eşit dağıt</button>
+          </div>
+          <label class="onay"><input type="checkbox" data-yedek><span>Birkaç tane fazla olsun <small>(her 10 parçaya 1 yedek)</small></span></label>
+        </fieldset>
+
+        <fieldset class="adim">
+          <legend><span class="adim-halka" aria-hidden="true"></span>Ne zaman, nasıl?</legend>
+          <div class="alanlar">
+            <label>Tarih<input type="date" data-tarih></label>
+            <label>Saat<input type="time" step="900" data-saat-sec></label>
+          </div>
+          <div class="cipler" role="group" aria-label="Teslim şekli">
+            <button type="button" class="cip" data-teslim="Fırından kendim alacağım" aria-pressed="true">Fırından alacağım</button>
+            <button type="button" class="cip" data-teslim="Adrese getirme imkânı var mı, öğrenmek istiyorum" aria-pressed="false">Getirme imkânını soracağım</button>
+          </div>
+          <div class="alanlar">
+            <label>Adınız <small>(isteğe bağlı)</small><input type="text" maxlength="40" autocomplete="name" data-ad></label>
+            <label>Notunuz <small>(isteğe bağlı)</small><input type="text" maxlength="160" placeholder="Örn. simitler ikiye kesilsin" data-not></label>
+          </div>
+        </fieldset>
+      </div>
+
+      <div class="hesap-sag">
+        <div class="sonuc">
+          <h2>Önerilen adet</h2>
+          <p class="sonuc-islem" data-islem aria-live="polite"></p>
+          <ul class="sonuc-liste" data-sonuc-liste></ul>
+          <p class="sonuc-toplam">Toplam <b data-toplam>0</b> parça</p>
+          <p class="sonuc-olcek" data-olcek></p>
+          <button type="button" class="metin-dugme" data-sifirla hidden>Elle yaptığım değişiklikleri geri al</button>
+        </div>
+        <div class="fis fis--siparis">
+          <p class="fis-etiket">Gönderilecek mesaj</p>
+          <pre class="fis-mesaj" data-mesaj aria-live="polite"></pre>
+          <div class="dugmeler">
+            <a class="dugme dugme--koyu" href="https://wa.me/905321361804" target="_blank" rel="noopener" data-wa-gonder><svg class="ikon" aria-hidden="true" focusable="false"><use href="#s-wa"/></svg><span>WhatsApp'ta gönderin</span></a>
+            <button type="button" class="dugme dugme--kagit" data-kopyala="[data-mesaj]"><svg class="ikon" aria-hidden="true" focusable="false"><use href="#s-kopya"/></svg><span>Mesajı kopyalayın</span></button>
+            <a class="dugme dugme--kagit" href="tel:+905321361804"><svg class="ikon" aria-hidden="true" focusable="false"><use href="#s-tel"/></svg><span>Arayıp söyleyin</span></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <noscript><p class="not-kutu">Hesaplayıcı için tarayıcınızda JavaScript açık olmalı. Kişi sayısını ve saati söylemek için 0532 136 18 04 numarasını arayabilirsiniz.</p></noscript>
+  </div>
+</section>
+
+<section class="bolum mantik">
+  <div class="sar">
+    <div class="baslik-sira">
+      <h2>Hesap nasıl yapılıyor?</h2>
+      <p>Gizli bir formül yok. Kişi sayısı, kişi başı parça ile çarpılır; sonuç yukarı yuvarlanır ve seçtiğiniz çeşitlere paylaştırılır.</p>
+    </div>
+    <div class="pay-tablo">
+      <div><b class="pay-sayi">1</b><h3>Atıştırmalık</h3><p>Toplantı arası, sınıf etkinliği, dağıtım. Herkese birer tane.</p></div>
+      <div><b class="pay-sayi">1,5</b><h3>Çay yanı</h3><p>Misafir sofrası, ikindi çayı. İki kişiden biri ikinciyi alır.</p></div>
+      <div><b class="pay-sayi">2</b><h3>Kahvaltı</h3><p>Öğün yerine geçecekse. Bir simit, yanında bir poğaça ya da açma.</p></div>
+      <div><b class="pay-sayi">3</b><h3>Doyurucu</h3><p>Uzun gün, yolculuk, başka yemek yoksa.</p></div>
+    </div>
+    <ul class="halkali mantik-not">
+      <li><b>Simit ağırlıklı</b> seçeneğinde simit, diğer çeşitlerin her birinin iki katı pay alır.</li>
+      <li><b>Yedek</b> işaretlenirse her 10 parçaya 1 parça eklenir; geç gelen, ikinciyi isteyen olur.</li>
+      <li>Önerilen adetler bir başlangıçtır; artı ve eksi düğmeleriyle dilediğiniz gibi değiştirin.</li>
+    </ul>
+  </div>
+</section>
+
+<section class="kese">
+  <div class="sar">
+    <div class="baslik-sira">
+      <h2>Toplu siparişi kolaylaştıran altı şey</h2>
+      <p>Hazırlığı tamamladıkça işaretleyin; liste bu cihazda saklanır.</p>
+    </div>
+    <ul class="kontrol" data-tool="kontrol-listesi" data-kontrol="toplu">
+      <li><label><input type="checkbox"><span><b>Sayıyı netleştirin.</b> Gelmeyecekleri düşmeyin; son anda katılan hep olur.</span></label></li>
+      <li><label><input type="checkbox"><span><b>Saati yazın.</b> "Sabah" yerine "08.30" demek fırının işini de sizinkini de kolaylaştırır.</span></label></li>
+      <li><label><input type="checkbox"><span><b>Çeşidi dengeleyin.</b> Herkes simit sevmez; üçte biri yumuşak çeşit olursa kimse aç kalmaz.</span></label></li>
+      <li><label><input type="checkbox"><span><b>Kesim isteyin.</b> Simitler ikiye bölünürse tabakta daha çok kişiye yeter, paylaşmak kolaylaşır.</span></label></li>
+      <li><label><input type="checkbox"><span><b>Yanını düşünün.</b> Çay, peynir, domates, peçete ve çöp poşeti çoğu zaman unutulur.</span></label></li>
+      <li><label><input type="checkbox"><span><b>Taşımayı planlayın.</b> Sıcak ürün kapalı poşette terler; kâğıt kese ya da ağzı aralık kutu daha iyidir.</span></label></li>
+    </ul>
+  </div>
+</section>
+
+<section class="bolum sss-bolum">
+  <div class="sar sss-izgara">
+    <div>
+      <h2>Toplu siparişte sık sorulanlar</h2>
+      <p>Aklınıza takılan başka bir şey varsa mesajınızın not kısmına yazın ya da doğrudan arayın.</p>
+      <div class="dugmeler">
+        <a class="dugme dugme--kor" href="tel:+905321361804"><svg class="ikon" aria-hidden="true" focusable="false"><use href="#s-tel"/></svg><span>0532 136 18 04</span></a>
+      </div>
+    </div>
+    <div class="sss">
+      <details>
+        <summary>Ne kadar önceden haber vermeliyim?</summary>
+        <p>Adet büyüdükçe erken haber vermek herkesin işini kolaylaştırır. Kesin süreyi fırın söyler; tarih ve saatinizi mesaja yazmanız yeterli.</p>
+      </details>
+      <details>
+        <summary>Sabahın çok erken saatine sipariş verebilir miyim?</summary>
+        <p>Fırın 24 saat açık. Erken saatli siparişlerde mesajınızı bir gün önceden göndermeniz, hazırlığın planlanmasına yardımcı olur.</p>
+      </details>
+      <details>
+        <summary>Adrese getiriyor musunuz?</summary>
+        <p>Bu bilgi sitede yer almıyor. Hesaplayıcıda "Getirme imkânını soracağım" seçeneğini işaretleyin; fırın size dönüş yaptığında öğrenirsiniz.</p>
+      </details>
+      <details>
+        <summary>Fiyatı nereden öğrenirim?</summary>
+        <p>Fiyatlar bu sitede yer almıyor. Hazırlanan mesajın sonunda fiyat bilgisi de soruluyor; güncel tutarı fırından öğrenirsiniz.</p>
+      </details>
+      <details>
+        <summary>Hesaplayıcının önerdiği adet az ya da çok gelirse?</summary>
+        <p>Öneri yalnızca bir aritmetik sonucudur. Kalabalığınızı en iyi siz bilirsiniz; her çeşidin yanındaki artı ve eksi düğmeleriyle adedi değiştirebilirsiniz.</p>
+      </details>
+    </div>
+  </div>
+</section>
+</main>
+<footer class="alt">
+  <div class="sar">
+    <div class="alt-ust">
+      <p class="alt-soz">Gece de sıcak.</p>
+      <p class="alt-durum"><span class="nabiz" aria-hidden="true"></span><span data-status>Her gün 24 saat açık.</span></p>
+    </div>
+    <div class="alt-izgara">
+      <div>
+        <h2>Bakaç Taş Fırın Simit</h2>
+        <address>Hasanpaşa, Kurbağalıdere Cd. No:123<br>34722 Kadıköy/İstanbul</address>
+        <p><a href="https://www.google.com/maps/dir/?api=1&amp;destination=Baka%C3%A7%20Ta%C5%9F%20F%C4%B1r%C4%B1n%20Simit%2C%20Hasanpa%C5%9Fa%2C%20Kurba%C4%9Fal%C4%B1dere%20Cd.%20No%3A123%2C%2034722%20Kad%C4%B1k%C3%B6y/%C4%B0stanbul&amp;destination_place_id=ChIJazqAzXS4yhQRNyO9vnnbfqA" target="_blank" rel="noopener">Yol tarifi alın</a></p>
+      </div>
+      <div>
+        <h2>Ulaşın</h2>
+        <p class="alt-tel"><a href="tel:+905321361804"><svg class="ikon" aria-hidden="true" focusable="false"><use href="#s-tel"/></svg><span>0532 136 18 04</span></a></p>
+        <p class="alt-tel"><a href="https://wa.me/905321361804" target="_blank" rel="noopener"><svg class="ikon" aria-hidden="true" focusable="false"><use href="#s-wa"/></svg><span>WhatsApp'tan yazın</span></a></p>
+        <p>Her gün 24 saat açık.</p>
+      </div>
+      <nav aria-label="Alt bilgi sayfaları">
+        <h2>Sayfalar</h2>
+        <ul>
+          <li><a href="index.html">Ana sayfa</a></li>
+          <li><a href="urunler.html">Ürünler</a></li>
+          <li><a href="toplu-siparis.html">Toplu sipariş</a></li>
+          <li><a href="tas-firin.html">Taş fırın</a></li>
+          <li><a href="iletisim.html">İletişim</a></li>
+        </ul>
+      </nav>
+    </div>
+    <p class="alt-not">Sitedeki fotoğraflar temsilidir; ürün çeşitleri ve güncel fiyat için fırına danışın. Google puanı: <a href="https://search.google.com/local/reviews?placeid=ChIJazqAzXS4yhQRNyO9vnnbfqA" target="_blank" rel="noopener">4,2 / 5, 280 değerlendirme</a>.</p>
+  </div>
+</footer>
+<div class="parmak" role="navigation" aria-label="Hızlı iletişim">
+  <a class="parmak-ara" href="tel:+905321361804"><svg class="ikon" aria-hidden="true" focusable="false"><use href="#s-tel"/></svg><span>Ara</span></a>
+  <a class="parmak-wa" href="https://wa.me/905321361804" target="_blank" rel="noopener"><svg class="ikon" aria-hidden="true" focusable="false"><use href="#s-wa"/></svg><span>WhatsApp</span></a>
+  <a class="parmak-yol" href="https://www.google.com/maps/dir/?api=1&amp;destination=Baka%C3%A7%20Ta%C5%9F%20F%C4%B1r%C4%B1n%20Simit%2C%20Hasanpa%C5%9Fa%2C%20Kurba%C4%9Fal%C4%B1dere%20Cd.%20No%3A123%2C%2034722%20Kad%C4%B1k%C3%B6y/%C4%B0stanbul&amp;destination_place_id=ChIJazqAzXS4yhQRNyO9vnnbfqA" target="_blank" rel="noopener"><svg class="ikon" aria-hidden="true" focusable="false"><use href="#s-yol"/></svg><span>Yol tarifi</span></a>
+</div>
+<script src="assets/js/site.js"></script>
+</body>
+</html>
